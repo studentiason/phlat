@@ -12,7 +12,8 @@ depends=('sed'
 	'gtk-engines'
 	'gtk-engine-murrine')
 makedepends=(git coreutils)
-optdepends=('qt5ct-svg'
+optdepends=('qt5ct'
+	'qt5-styleplugins'
 	'ttf-roboto'
 	'xcursor-vanilla-dmz'
 	'gtk3-nocsd'

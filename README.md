@@ -57,6 +57,16 @@ wget https://raw.githubusercontent.com/sixsixfive/phlat/master/%40extra/PKGS/deb
 su -c "dpkg -i phlat_1.0-1_all.deb || apt install -f"
 ```
 
+NOTE: Qt5ct is currently not available on debian however you can get it [here](https://github.com/mati75/qt5ct):
+
+```
+git clone https://github.com/mati75/qt5ct.git && cd qt5ct
+su -c "apt install --no-recommends qtbase5-dev libqt5svg5-dev qtbase5-private-dev libmtdev-dev fakeroot"
+fakeroot debian/rules binary
+su -c "dpkg -i ../qt5ct_*_amd64.deb"
+rm ../qt5ct*.deb
+```
+
 #### Manjaro / Arch
 
 There is a [PKGBUILD](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/sixsixfive/phlat/tree/master/%40extra/PKGS/PKGBUILD) to install the current master release.

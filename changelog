@@ -1,3 +1,9 @@
+phlat (0.13-1) unstable; urgency=low
+
+  * A usable Qt5 theme(QGtkStyle + QSS fixes)
+
+-- SSF <https://github.com/sixsixfive> Sun, 21 May 2017 17:05:07 +0000
+
 phlat (0.12-1) unstable; urgency=low
 
   * more GTK2 improvements

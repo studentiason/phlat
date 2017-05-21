@@ -24,7 +24,7 @@ License: CC-BY-SA_V4
 Requires: unzip, curl, findutils ,libgtk-3-0 >= 3.20, gtk2-engine-mist, gtk2-engine-murrine, hicolor-icon-theme
 Provides: phlat = %version, gnome-icon-theme
 Obsoletes: phlat <= %version
-Recommends: gtk3-nocsd, qt5ct, xfwm4, marco, metacity, xfce4-notifyd, xfdashboard, onboard
+Recommends: gtk3-nocsd, qt5ct, qt5-style-plugins, xfwm4, marco, metacity, xfce4-notifyd, xfdashboard, onboard
 Group: System/GUI/Xfce
 BuildArch: noarch
 

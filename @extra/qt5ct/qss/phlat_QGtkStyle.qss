@@ -11,61 +11,10 @@ margin:-1px;
 background:palette(highlight);
 border: 1px solid rgba(0,0,0,0.8);}
 
-/*phlat_QScrollBars.qss*/
+/*phlat_QMenu.qss*/
 
-QScrollBar:horizontal {
-border:solid rgba(0,0,0,0.6);
-border-width: 1px 0px 1px 0px;
-background: rgba(0,0,0,0.6);
-height: 18px;
-margin: 0px 18px 0 18px;}
-QScrollBar:vertical {
-border:solid rgba(0,0,0,0.6);
-border-width: 0px 1px 0px 1px;
-background: rgba(0,0,0,0.6);
-width: 18px;
-margin: 18px 0px 18px 0px;}
-QScrollBar::handle:horizontal {
-border:1px solid rgba(0,0,0,0.6);
-background: palette(highlight);
-min-width: 35px;
-margin:-1px 0px;}
-QScrollBar::handle:vertical {
-border:1px solid rgba(0,0,0,0.6);
-background: palette(highlight);
-min-height: 35px;
-margin:0px -1px;}
-QScrollBar::add-page,
-QScrollBar::sub-page {
-background: none;}
-QScrollBar::add-line:horizontal {
-border:solid rgba(0,0,0,0.6);
-border-width:1px 1px 1px 0px;
-background: rgba(0,0,0,0.6);
-width: 17px;
-subcontrol-position: right;
-subcontrol-origin: margin;}
-QScrollBar::sub-line:horizontal {
-border:solid rgba(0,0,0,0.6);
-border-width:1px 0px 1px 1px;
-background: rgba(0,0,0,0.6);
-width: 17px;
-subcontrol-position: left;
-subcontrol-origin: margin;}
-QScrollBar::add-line:vertical {
-border:solid rgba(0,0,0,0.6);
-border-width:0px 1px 1px 1px;
-background: rgba(0,0,0,0.6);
-height: 17px;
-subcontrol-position: bottom;
-subcontrol-origin: margin;}
-QScrollBar::sub-line:vertical {
-border:solid rgba(0,0,0,0.6);
-border-width:1px 1px 0px 1px;
-background: rgba(0,0,0,0.6);
-height: 17px;
-subcontrol-position: top;
-subcontrol-origin: margin;}
+QMenu{
+font-weight:bold;}
 
 /*phlat_QMisc.qss*/
 
@@ -85,39 +34,40 @@ margin:4px;
 border:1px solid rgba(0,0,0,0.6);
 background:palette(window);}
 .QMdiSubWindow::title {}
-
-*::right-arrow {
+/*
+.*::right-arrow {
 width: 16px;
 height: 16px;
 background-position: center; 
 background-repeat: no-repeat;
 background-image: url("/usr/share/themes/phlat/images/gtk-2.0/arrow-right_normal.svg");}
-*::left-arrow {
+.*::left-arrow {
 width: 16px;
 height: 16px;
 background-position: center; 
 background-repeat: no-repeat;
 background-image: url("/usr/share/themes/phlat/images/gtk-2.0/arrow-left_normal.svg");}
-*::up-arrow {
+.*::up-arrow {
 width: 16px;
 height: 16px;
 background-position: center; 
 background-repeat: no-repeat;
 background-image: url("/usr/share/themes/phlat/images/gtk-2.0/arrow-up_normal.svg");}
-*::down-arrow {
+.*::down-arrow {
 width: 16px;
 height: 16px;
 background-position: center; 
 background-repeat: no-repeat;
 background-image: url("/usr/share/themes/phlat/images/gtk-2.0/arrow-down_normal.svg");}
-*::right-arrow {
+.*::right-arrow {
 background-image: url("/usr/share/themes/phlat/images/gtk-2.0/arrow-right_insensitive.svg");}
-*::left-arrow:disabled {
+.*::left-arrow:disabled {
 background-image: url("/usr/share/themes/phlat/images/gtk-2.0/arrow-left_insensitive.svg");}
-*::up-arrow:disabled {
+.*::up-arrow:disabled {
 background-image: url("/usr/share/themes/phlat/images/gtk-2.0/arrow-up_insensitive.svg");}
-*::down-arrow:disabled {
+.*::down-arrow:disabled {
 background-image: url("/usr/share/themes/phlat/images/gtk-2.0/arrow-down_insensitive.svg");}
+*/
 
 /*phlat_QDockWidgets.qss*/
 
@@ -130,39 +80,102 @@ text-align: center;
 margin:-1px;
 border:1px solid rgba(0,0,0,0.6);
 background-color: palette(base);}
-QDockWidget::close-button, QDockWidget::float-button {
+QDockWidget::close-button,
+QDockWidget::float-button {
+border:none;
+background:transparent;
 padding:0px;
 icon-size: 22px; }
 QDockWidget::close-button:pressed{
+border:none;
 background:#cc0000}
 QDockWidget::float-button:pressed{
+border:none;
 background:palette(highlight);}
 
-/*phlat_QLineEdit.qss*/
+/*phlat_QToolButton.qss*/
 
-QLineEdit {
-color:#f1f2f2;
-background:palette(base);
 border:1px solid rgba(0,0,0,0.6);
-selection-background-color:palette(highlight);
-selection-color:#f1f2f2;}
-QLineEdit:disabled {
-color:#656666;}
+border-left:0px;
+background:palette(base);
+width: 7px;}
+
+QToolButton[popupMode="1"]::menu-button::menu-arrow {
+background-position: center; 
+background-repeat: no-repeat;
+background-image: url("/usr/share/themes/phlat/images/gtk-2.0/arrow-down_normal.svg");}
+
+QToolButton[popupMode="1"]::menu-button:!enabled::menu-arrow{
+background-position: center; 
+background-repeat: no-repeat;
+background-image: url("/usr/share/themes/phlat/images/gtk-2.0/arrow-down_insensitive.svg");}
+
+/*phlat_QToolBar.qss*/
+
+QToolBar {
+spacing: 0px;}
+
+QToolBar::separator {
+width:1px;}
+
+QToolBar QToolButton:hover:!pressed, 
+QToolBar QToolButton::menu-button:hover:!pressed {
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 1px;
+}
+
+/*phlat_QSplitter.qss*/
+
+QSplitter::handle:horizontal {
+margin-left:4px;
+margin-right:2px;
+height:1px;
+background-repeat:repeat-y;
+background-image: url("/usr/share/themes/phlat/images/gtk-2.0/line.svg");}
+
+QSplitter::handle:vertical {
+margin-top:4px;
+margin-bottom:2px;
+height:1px;
+background-repeat:repeat-x;
+background-image: url("/usr/share/themes/phlat/images/gtk-2.0/line.svg");}
 
 /*phlat_QMenuBar.qss*/
 
 QMenuBar{
-border-color:transparent;
-background:#424141;
 font-weight:bold;}
-QMenuBar::item,
-QMenuBar::item:selected {
-color:#f1f2f2;}
-QMenuBar::item:disabled {
-color:#656666;}
-QMenuBar::item:pressed {
-color:palette(highlight);
-background: #212020;}
+
+/*phlat_QTabWidget.qss*/
+
+QTabWidget::tab-bar {
+alignment: center;}
+
+QTabBar::tab {
+padding:2px;
+border:1px solid  rgba(0,0,0,0.6);
+background-color:palette(base);}
+QTabBar::tab:selected {
+border:1px solid  rgba(0,0,0,0.6);
+background-color:palette(highlight);}
+
+QTabBar::tab:top:!first,
+QTabBar::tab:bottom:!first {
+margin-left: -1;}
+
+QTabBar::tab:left:!first,
+QTabBar::tab:right:!first {
+margin-top: -1;}
+
+QTabBar::tear {
+background:palette(highlight);
+border:1px solid  rgba(0,0,0,0.6);}
+QTabBar QToolButton {
+padding:5px;
+border:1px solid  rgba(0,0,0,0.6);
+background:palette(base);}
+QTabBar::close-button {
+image: url(/usr/share/themes/phlat/images/close.svg);}
 
 /*phlat_QSlider.qss*/
 
