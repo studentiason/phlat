@@ -1,0 +1,93 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+/*phlat firefox v53(GTK3Version) theme*/
+
+/*menustuff*/
+
+menu:active .menubar-text,
+menu[open="true"] .menubar-text{
+-moz-appearance:none!important;
+font-weight:bold!important;}
+
+menu,
+menuitem{
+height:26px!important;
+margin:0px .5px;
+font-weight:bold!important;}
+
+/*navbarstuff!*/
+#nav-bar {
+background: none !important;
+margin:0px !important;
+padding: 3px 0 !important;
+border-radius: 0px 0px 0px 0px !important;
+border: none!important;
+box-shadow: none !important;}
+#urlbar,
+#searchbar{
+height:26px!important;}
+#PanelUI-button{
+margin-inline-start: 0;
+border-inline-start-width: 0;}
+.ac-separator, 
+.ac-url,
+.ac-separator[selected], 
+.ac-url[selected=true]{
+color: #2980b9!important;}
+.search-panel-header {
+background:rgba(0,0,0,0.3)!important;
+color: rgba(255,255,255,0.8)!important;}
+
+#nav-bar .toolbarbutton-1 .toolbarbutton-icon,
+#nav-bar .toolbarbutton-1 > .toolbarbutton-menubutton-button .toolbarbutton-icon,
+#nav-bar .toolbarbutton-1 > .toolbarbutton-badge-container,
+#nav-bar .toolbarbutton-1 > .toolbarbutton-badge-stack,
+#nav-bar .toolbarbutton-1 > .toolbarbutton-menu-dropmarker,
+#nav-bar .toolbarbutton-1 > .toolbarbutton-menubutton-dropmarker > .dropmarker-icon{
+box-shadow:none;
+border:none;
+background:none;}
+
+#back-button .toolbarbutton-icon,
+#forward-button{
+border:1px solid #000000!important;
+background:#323131!important;}
+
+/*kill the ugly tab style!*/
+#TabsToolbar {
+margin-top:5px!important;
+margin-left: -14px !important;}
+#TabsToolbar .tab-background,
+#TabsToolbar .tab-background-middle {
+margin: 0px!important;
+background: transparent !important;}
+#TabsToolbar .tab-background-start,
+#TabsToolbar .tab-background-end,
+#TabsToolbar #tabbrowser-tabs[movingtab] > .tabbrowser-tab[beforeselected]:not([last-visible-tab])::after,
+#TabsToolbar .tabbrowser-tab:not([visuallyselected]):not([afterselected-visible]):not([afterhovered]):not([first-visible-tab]):not(:hover)::before,
+#TabsToolbar #tabbrowser-tabs:not([overflow]) > .tabbrowser-tab[last-visible-tab]:not([visuallyselected]):not([beforehovered]):not(:hover)::after,
+#TabsToolbar .tabbrowser-tab:not([selected]):not([afterselected-visible]):not([afterhovered]):not([first-visible-tab]):not(:hover)::before,
+#TabsToolbar #tabbrowser-tabs:not([overflow]) > .tabbrowser-tab[last-visible-tab]:not([selected]):not([beforehovered]):not(:hover)::after{
+display:none;}
+#TabsToolbar tab:not([selected="true"]) {
+font-weight:bold;
+border:1px solid rgba(0,0,0,0.6);
+background:#323131 !important;
+color:#f1f2f2;}
+#TabsToolbar tab:not(:first-child) {
+margin-left:-1px;}
+#TabsToolbar .tabbrowser-tab[selected] {
+-moz-appearance: none!important;
+font-weight:bold;
+border:1px solid rgba(0,0,0,0.8);
+background:#5288d1 !important;
+color:#f1f2f2;}
+#TabsToolbar #new-tab-button,
+.tabs-newtab-button {
+background:none!important;}
+
+/*scrollbars*/
+scrollbarbutton {
+border:none;
+-moz-appearance: none !important;}
+

@@ -1,0 +1,26 @@
+switch,
+switch:backdrop{
+font-weight:bold;
+min-height:24px;
+min-width:24px;
+background:@base_color;
+border:1px solid @border_color;}
+.view switch,
+.view switch:backdrop{
+background-color:shade(@base_color,0.76);
+border:1px solid @border_color;}
+switch:checked,
+switch:checked:backdrop{
+background:@selected_base_color;
+color:@selected_text_color}
+switch slider,
+switch slider:backdrop{
+margin:-1px;
+padding:2px;
+min-width:32px;
+background-color:@bg_color;
+border:1px solid rgba(0,0,0,0.8);}
+.view switch slider,
+.view switch slider:backdrop{
+background-color:shade(@bg_color,0.76);
+border:1px solid rgba(0,0,0,0.8);}

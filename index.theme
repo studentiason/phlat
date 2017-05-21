@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=phlat
+Comment=Simple, dark & fast
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=phlat
+MetacityTheme=phlat
+IconTheme=breeze-dark
+CursorTheme=DMZ-White
+CursorSize=24
+NotificationTheme=Coco
+BackgroundImage=/usr/share/themes/phlat/@extra/desktop_base/wallpaper/phlat.svg
+ButtonLayout=:minimize,maximize,close

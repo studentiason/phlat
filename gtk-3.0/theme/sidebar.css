@@ -1,0 +1,25 @@
+placessidebar,
+placessidebar:backdrop,
+placessidebar.frame,
+placessidebar.frame:backdrop,
+placessidebar list,
+placessidebar list:backdrop{
+border-color:transparent;
+background:@bg_color;}
+.sidebar,
+.sidebar:backdrop{
+background:@bg_color;
+color:@fg_color;}
+assistant .sidebar>label{
+font-weight:bold;
+padding:3px;
+margin:3px 10px;}
+assistant .sidebar>label.highlight{
+border-radius:2px;
+border-bottom:1px solid @selected_bg_color;}
+.sidebar viewport.frame,
+.sidebar viewport.frame:backdrop {
+border:none;}
+placessidebar,
+placessidebar:backdrop{
+margin:1px;}

@@ -1,0 +1,21 @@
+printdialog.background>*,
+printdialog.background>*:backdrop{
+background:@bg_color;}
+
+filechooser>actionbar,
+filechooser>actionbar:backdrop{
+border-top: 1px solid @border_color;}
+filechooser>actionbar *,
+filechooser>actionbar *:backdrop{
+margin:1px;}
+filechooser #pathbarbox,
+filechooser #pathbarbox:backdrop{
+border-bottom: 1px solid @border_color;}
+filechooser #pathbarbox{
+border-bottom: 1px solid @border_color;}
+filechooser paned.horizontal>separator,
+filechooser paned.horizontal>separator:backdrop {
+margin-right:0px;}
+filechooser paned.horizontal>separator:dir(rtl),
+filechooser paned.horizontal>separator:dir(rtl):backdrop {
+margin-left:0px;}

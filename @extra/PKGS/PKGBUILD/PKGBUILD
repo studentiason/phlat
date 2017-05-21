@@ -1,0 +1,63 @@
+## PKGBUILD
+# https://github.com/sixsixfive/phlat/tree/master/%40extra/PKGS/PKGBUILD
+pkgname=xfce-theme-phlat
+pkgver=2017.05.06.174703
+pkgrel=1
+pkgdesc='Plain and simple dark theme without any specials..'
+arch=('x86_64')
+url='https://github.com/sixsixfive/phlat'
+depends=('sed'
+	'gtk2'
+	'gtk3>=3.20'
+	'gtk-engines'
+	'gtk-engine-murrine')
+makedepends=(git coreutils)
+optdepends=('qt5ct-svg'
+	'ttf-roboto'
+	'xcursor-vanilla-dmz'
+	'gtk3-nocsd'
+	'xfwm4'
+	'marco'
+	'xfce4-notifyd'
+	'xfdashboard'
+	'parole'
+	'plank'
+	'onboard'
+	'lightdm-gtk-greeter-settings')
+install="install"
+provides=("${pkgname}=$pkgver")
+#kde gtk config breaks gtks font settings!
+conflicts=("${pkgname}" "kde-gtk-config")
+license=(CCPL:cc-by-sa-4.0)
+source=("${pkgname}.zip::https://github.com/sixsixfive/phlat/archive/master.zip")
+sha256sums=('SKIP')
+ 
+pkgver() {
+	printf "$(date -u +%Y.%m.%d.%H%M%S)"
+}
+ 
+package() {
+	install -d $pkgdir/usr/share/themes/phlat
+	mv phlat-master/* $pkgdir/usr/share/themes/phlat
+	if [ -f "/etc/manjaro-release" ]; then
+		sh $pkgdir/usr/share/themes/phlat/@extra/scripts/changecolor.sh -c "#16A085"
+	else
+		sh $pkgdir/usr/share/themes/phlat/@extra/scripts/changecolor.sh -c "#0088CC"
+	fi
+##other_stuff
+	_tmpdir=$pkgdir
+#plank theme
+	mkdir -p ${_tmpdir}/usr/share/plank/themes
+	ln -sf ../../themes/phlat/@extra/plank/phlat ${_tmpdir}/usr/share/plank/themes/phlat
+#onboard
+	mkdir -p ${_tmpdir}/usr/share/onboard/themes
+	ln -sf ../../themes/phlat/@extra/onboard/phlat.colors ${_tmpdir}/usr/share/onboard/themes
+	ln -sf ../../themes/phlat/@extra/onboard/phlat.theme ${_tmpdir}/usr/share/onboard/themes
+#qt5ct
+	mkdir -p ${_tmpdir}/usr/share/qt5ct/colors ${_tmpdir}/usr/share/qt5ct/qss
+	ln -sf ../../themes/phlat/@extra/qt5ct/colors/phlat_QGtkStyle.conf ${_tmpdir}/usr/share/qt5ct/colors
+	ln -sf ../../themes/phlat/@extra/qt5ct/qss/phlat_QGtkStyle.qss ${_tmpdir}/usr/share/qt5ct/qss
+#hidpi
+	ln -sf phlat/@extra/phlat-hidpi ${_tmpdir}/usr/share/themes/phlat-HiDPI
+	chmod -R 755 ${_tmpdir}
+}
