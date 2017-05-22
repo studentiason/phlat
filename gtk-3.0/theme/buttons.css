@@ -76,3 +76,7 @@ background:transparent;}
 stackswitcher>button,
 stackswitcher>button:backdrop{
 font-weight:bold;}
+
+dialog stackswitcher,
+dialog stackswitcher:backdrop{
+margin:5px;}
