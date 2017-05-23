@@ -62,7 +62,7 @@ NOTE: Qt5ct is currently not available on debian however you can get it [here](h
 
 ```
 git clone https://github.com/mati75/qt5ct.git && cd qt5ct
-su -c "apt install --no-recommends qtbase5-dev libqt5svg5-dev qtbase5-private-dev libmtdev-dev fakeroot"
+su -c "apt install --no-install-recommends qtbase5-dev libqt5svg5-dev qtbase5-private-dev libmtdev-dev fakeroot"
 fakeroot debian/rules binary
 su -c "dpkg -i ../qt5ct_*.deb"
 rm ../qt5ct*.deb
