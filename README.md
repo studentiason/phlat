@@ -28,6 +28,7 @@
 * Plank theme
 * Marco/Metacity theme
 * Onboard theme
+* Qt5 theme fixes
 * simple Firefox(@GTK3) stylish fixes (not recommend since XUL has some huge issues with dark themes)
 
 ## Install

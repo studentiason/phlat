@@ -11,10 +11,12 @@ background-color:palette(highlight);}
 
 QTabBar::tab:top:!first,
 QTabBar::tab:bottom:!first {
+padding:4px 4px;
 margin-left: -1;}
 
 QTabBar::tab:left:!first,
 QTabBar::tab:right:!first {
+padding:4px 4px;
 margin-top: -1;}
 
 QTabBar::tear {
