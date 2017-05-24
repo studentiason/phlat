@@ -120,6 +120,10 @@ background-color: transparent;
 border: 1px solid transparent;
 padding: 1px;}
 
+/*phlat_KWidgets.qss*/
+
+KTitleWidget * {
+background:palette(window);}
 /*phlat_QSplitter.qss*/
 
 QSplitter::handle:horizontal {
