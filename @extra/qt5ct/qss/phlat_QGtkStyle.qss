@@ -114,8 +114,8 @@ spacing: 0px;}
 QToolBar::separator {
 width:1px;}
 
-QToolBar QToolButton:hover:!pressed, 
-QToolBar QToolButton::menu-button:hover:!pressed {
+QToolBar QToolButton:hover:!checked,
+QToolButton::menu-button:hover:!checked {
 background-color: transparent;
 border: 1px solid transparent;
 padding: 1px;}
@@ -156,10 +156,12 @@ background-color:palette(highlight);}
 
 QTabBar::tab:top:!first,
 QTabBar::tab:bottom:!first {
+padding:4px 4px;
 margin-left: -1;}
 
 QTabBar::tab:left:!first,
 QTabBar::tab:right:!first {
+padding:4px 4px;
 margin-top: -1;}
 
 QTabBar::tear {

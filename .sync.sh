@@ -5,6 +5,7 @@ if [ ! -t 0 ]; then
 fi
 basedir=`dirname "$(readlink -f "${0}")"`
 cd ${basedir}
+sh @extra/qt5ct/qss/maketheme.sh
 #rm -rf .git
 #git init
 git add .
