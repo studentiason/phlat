@@ -13,9 +13,11 @@ border: 1px solid rgba(0,0,0,0.8);}
 
 /*phlat_QMenu.qss*/
 
-QMenu{
+.QMenu{
 font-weight:bold;}
-
+.QMenu::separator {
+height: 1px;
+background: rgba(0,0,0,0.6);}
 /*phlat_QMisc.qss*/
 
 QDial{
@@ -142,9 +144,9 @@ background-image: url("/usr/share/themes/phlat/images/gtk-2.0/line.svg");}
 
 /*phlat_QMenuBar.qss*/
 
-QMenuBar{
+.QMenuBar{
+padding:0px;
 font-weight:bold;}
-
 /*phlat_QTabWidget.qss*/
 
 QTabWidget::tab-bar {
