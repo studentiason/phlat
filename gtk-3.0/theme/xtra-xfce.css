@@ -98,18 +98,16 @@ border:none;}
 background:alpha(@selected_bg_color,0.6);
 color:@selected_fg_color;}
 
-XfdesktopIconView,
-XfdesktopIconView:backdrop,
 XfdesktopIconView.view,
 XfdesktopIconView.view:backdrop{
 border-color:transparent;
 font-weight:bold;
 text-shadow: 1px 1px 2px#000000;
 background:transparent;}
-XfdesktopIconView:selected,
-XfdesktopIconView:selected:backdrop,
-XfdesktopIconView:active,
-XfdesktopIconView:active:backdrop{
+XfdesktopIconView.view:selected,
+XfdesktopIconView.view:selected:backdrop,
+XfdesktopIconView.view:active,
+XfdesktopIconView.view:active:backdrop{
 border-radius:5px;
 text-shadow: none;
 color:@selected_text_color;
