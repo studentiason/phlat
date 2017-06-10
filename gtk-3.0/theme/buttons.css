@@ -37,9 +37,16 @@ border:1px solid rgba(0,0,0,0.8);}
 .view button:checked:disabled:backdrop{
 background-color:@base_color;}
 
-/*buttons on notebook tabs*/
-notebook>header>tabs>tab>box>button:not(:checked),
-notebook>header>tabs>tab>box>button:not(:checked):backdrop,
+notebook>header>tabs>tab>box>button,
+notebook>header>tabs>tab>box>button:backdrop{
+min-height:18px;
+min-width:18px;}
+notebook>header>tabs>tab:checked>box>button,
+notebook>header>tabs>tab:checked>box>button:backdrop{
+background:@base_color;
+border:1px solid rgba(0,0,0,0.9);}
+
+
 /*buttons on the scrollbar*/
 scrollbar>contents>button,
 scrollbar>contents>button:backdrop{
