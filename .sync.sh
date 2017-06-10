@@ -16,7 +16,7 @@ sh @extra/qt5ct/qss/maketheme.sh
 #cd $basedir/@extra/phlat-icons
 #add a padding for bigger icons!
 if [ -d $basedir/@extra/phlat-icons/symbolic-24 ]; then
-	rm -rf $basedir/@extra/phlat-icons/symbolic-24
+	rm -rfv $basedir/@extra/phlat-icons/symbolic-24
 fi
 cp -R $basedir/@extra/phlat-icons/symbolic $basedir/@extra/phlat-icons/symbolic-24
 cd $basedir/@extra/phlat-icons/symbolic-24
