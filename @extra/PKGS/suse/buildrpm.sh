@@ -63,12 +63,6 @@ if [ -f /tmp/phlat.zip ]; then
 	unzip /tmp/phlat.zip -d ${_tmpdir}/usr/share/themes
 	mv ${_tmpdir}/usr/share/themes/phlat-master ${_tmpdir}/usr/share/themes/phlat
 fi
-#get the icon theme
-curl -L https://codeload.github.com/sixsixfive/phlat-icons/zip/master > /tmp/phlat-icons.zip
-if [ -f ${_tmpdir}/../phlat-icons.zip ]; then
-	unzip ${_tmpdir}/../phlat-icons.zip -d ${_tmpdir}/usr/share/themes/phlat/@extra
-	mv ${_tmpdir}/usr/share/themes/phlat/@extra/phlat-icons-master ${_tmpdir}/usr/share/themes/phlat/@extra/phlat-icons
-fi
 ###link all themes
 if [ -d ${_tmpdir}/usr/share/themes/phlat ]; then
 #plank theme

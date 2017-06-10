@@ -61,4 +61,7 @@ package() {
 #hidpi
 	ln -sf phlat/@extra/phlat-hidpi ${_tmpdir}/usr/share/themes/phlat-HiDPI
 	chmod -R 755 ${_tmpdir}
+#icon theme
+	mkdir -p ${_tmpdir}/usr/share/icons
+	ln -sf ../themes/phlat/@extra/phlat-icons ${_tmpdir}/usr/share/icons/phlat
 }
