@@ -1,97 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   width="16"
-   version="1.1"
-   id="svg7384"
-   height="16">
-  <metadata
-     id="metadata90">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>Gnome Symbolic Icon Theme</dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <title
-     id="title9167">Gnome Symbolic Icon Theme</title>
-  <defs
-     id="defs7386">
-    <clipPath
-       id="clipPath6254-6"
-       clipPathUnits="userSpaceOnUse">
-      <rect
-         y="221.50153"
-         x="26.998718"
-         width="1.876245"
-         style="color:#f1f2f2;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible"
-         id="rect6256-6"
-         height="4.8783236" />
-    </clipPath>
-  </defs>
-  <g
-     transform="translate(-181.0002,-177)"
-     style="display:inline"
-     id="layer9">
-    <path
-       style="color:#f1f2f2;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:2;marker:none"
-       id="path19592-2"
-       d="m 188.84821,181.96875 c 1.64243,-0.092 3.0955,1.17008 3.1875,2.8125 -1e-4,1.40136 -0.37771,1.92177 -1.59375,2.84375 -0.19093,0.14364 -0.3256,0.2506 -0.375,0.3125 -0.0494,0.0621 -0.0312,0.0332 -0.0312,0.0312 0.007,0.52831 -0.47163,1 -1,1 -0.52837,0 -1.007,-0.47169 -1,-1 0,-0.50239 0.22424,-0.94342 0.46875,-1.25 0.24451,-0.30663 0.4913,-0.51638 0.71875,-0.6875 0.20405,-0.16056 0.46083,-0.38454 0.6875,-0.65625 0.0935,-0.1121 0.129,-0.30766 0.125,-0.4375 v -0.0312 c -0.0316,-0.56324 -0.49926,-0.9691 -1.0625,-0.9375 -0.56324,0.0316 -0.9691,0.43676 -0.9375,1 h -2 c -0.092,-1.64243 1.17007,-2.9079 2.8125,-3 z m 0.1875,8 c 0.55228,0 1,0.44772 1,1 0,0.55228 -0.44772,1 -1,1 -0.55228,0 -1,-0.44772 -1,-1 0,-0.55228 0.44772,-1 1,-1 z" />
-    <path
-       transform="matrix(0,-2.66667,2.8685171,0,-453.37427,255)"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;opacity:0.35;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:0.7231313;marker:none;enable-background:accumulate"
-       id="path14835"
-       d="m 27.125,221.3125 a 0.36160181,0.36160181 0 0 0 -0.21875,0.59375 0.36160181,0.36160181 0 0 0 0.03125,0.0312 c 1.106624,1.10662 1.106624,2.89338 0,4 a 0.36160181,0.36160181 0 1 0 0.5,0.5 c 1.382968,-1.38297 1.382968,-3.61703 0,-5 a 0.36160181,0.36160181 0 0 0 -0.3125,-0.125 z"
-       clip-path="url(#clipPath6254-6)" />
-    <path
-       style="opacity:0.35;fill:#f1f2f2;fill-opacity:1;stroke:none"
-       id="path14861"
-       d="m 186.0002,187 h 1.01562 c 0.0239,-0.34343 0.13908,-0.71932 0.51425,-1 h -1.52988 z" />
-    <path
-       style="opacity:0.35;fill:#f1f2f2;fill-opacity:1;stroke:none"
-       id="path15371"
-       d="m 184.0002,185 h 1.01562 c -0.0156,-0.68021 0.10253,-1.65205 0.66407,-2.18017 C 185.09617,183 184.43282,183.50337 184.0002,184 Z" />
-    <path
-       style="opacity:0.35;fill:#f1f2f2;fill-opacity:1;stroke:none"
-       id="path15375"
-       d="m 194.0002,185 h -1.01563 c 0.0156,-0.68021 -0.10252,-1.65205 -0.66406,-2.18017 0.58372,0.18017 1.24706,0.68354 1.67969,1.18017 z" />
-  </g>
-  <g
-     transform="translate(-181.0002,-177)"
-     style="display:inline"
-     id="layer10" />
-  <g
-     transform="translate(-181.0002,-177)"
-     id="layer11" />
-  <g
-     transform="translate(-181.0002,-177)"
-     style="display:inline"
-     id="layer13" />
-  <g
-     transform="translate(-181.0002,-177)"
-     id="layer14" />
-  <g
-     transform="translate(-181.0002,-177)"
-     style="display:inline"
-     id="layer15" />
-  <g
-     transform="translate(-181.0002,-177)"
-     style="display:inline"
-     id="g71291" />
-  <g
-     transform="translate(-181.0002,-177)"
-     style="display:inline"
-     id="g4953" />
-  <g
-     transform="translate(-181.0002,-177)"
-     style="display:inline"
-     id="layer12" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+    <defs>
+        <clipPath id="a">
+            <path style="marker:none" color="#f1f2f2" fill="#f1f2f2" stroke-width="2" overflow="visible" d="M26.999 221.502h1.876v4.878h-1.876z"/>
+        </clipPath>
+    </defs>
+    <g fill="#f1f2f2">
+        <path style="marker:none" d="M7.848 4.969c1.642-.092 3.096 1.17 3.188 2.812 0 1.402-.378 1.922-1.594 2.844-.191.144-.326.25-.375.313-.05.062-.031.033-.031.03.007.529-.472 1-1 1-.529 0-1.007-.471-1-1 0-.502.224-.943.468-1.25a3.82 3.82 0 0 1 .72-.687c.203-.16.46-.384.687-.656.093-.112.129-.308.125-.438v-.03a.988.988 0 0 0-1.063-.938c-.563.031-.969.437-.937 1h-2c-.092-1.643 1.17-2.908 2.812-3zm.188 8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" color="#f1f2f2" overflow="visible"/>
+        <path transform="matrix(0 -2.66667 2.86852 0 -634.374 78)" style="line-height:normal;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;marker:none" d="M27.125 221.313a.362.362 0 0 0-.219.593.362.362 0 0 0 .032.031 2.825 2.825 0 0 1 0 4 .362.362 0 1 0 .5.5 3.531 3.531 0 0 0 0-5 .362.362 0 0 0-.313-.125z" clip-path="url(#a)" color="#000" font-weight="400" font-family="Sans" overflow="visible" opacity=".35"/>
+        <path d="M5 10h1.016c.024-.343.139-.72.514-1H5zM3 8h1.016c-.016-.68.102-1.652.664-2.18C4.096 6 3.433 6.503 3 7zm10 0h-1.016c.016-.68-.102-1.652-.664-2.18.584.18 1.247.683 1.68 1.18z" opacity=".35"/>
+    </g>
 </svg>

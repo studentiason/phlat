@@ -20,11 +20,8 @@ if [ -d $basedir/@extra/phlat-icons/symbolic-24 ]; then
 fi
 cp -R $basedir/@extra/phlat-icons/symbolic $basedir/@extra/phlat-icons/symbolic-24
 cd $basedir/@extra/phlat-icons/symbolic-24
-for f in $(find . -type f -name "*.svg"); do 
-	sed -i 's/   viewBox="0 0 16 16"//' $f
-done
-for f2 in $(find . -type f -name "*.svg"); do 
-	sed -i 's/   version="1.1"/   version="1.1"\n\t viewBox="-4 -4 24 24"\n/' $f2
+for f in $(find . -type f -name "*.svg");do 
+	sed -i 's/viewBox="-0 0 16 16"/viewBox="-4 -4 24 24"/' $f
 done
 cd $basedir
 gtk-update-icon-cache $basedir/@extra/phlat-icons/
