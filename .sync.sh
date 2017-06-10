@@ -21,7 +21,7 @@ fi
 cp -R $basedir/@extra/phlat-icons/symbolic $basedir/@extra/phlat-icons/symbolic-24
 cd $basedir/@extra/phlat-icons/symbolic-24
 for f in $(find . -type f -name "*.svg");do 
-	sed -i 's/viewBox="-0 0 16 16"/viewBox="-4 -4 24 24"/' $f
+	sed -i 's/viewBox="0 0 16 16"/viewBox="-4 -4 24 24"/' $f
 done
 cd $basedir
 gtk-update-icon-cache $basedir/@extra/phlat-icons/
