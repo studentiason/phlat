@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg7384">
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <defs
+     id="defs7386" />
+  <g
+     style="display:inline"
+     id="layer9"
+     transform="translate(-181.0002,-257)">
+    <path
+       style="display:inline;fill:#ff6600;fill-opacity:1;fill-rule:evenodd;stroke:none;enable-background:new"
+       id="path16909"
+       d="m 189,257.05814 -2.26467,3.41252 -3.41252,-1.14785 1.14785,3.41252 -3.41252,2.26467 3.41252,2.26467 -1.14785,3.41252 3.41252,-1.14785 2.26467,3.41252 2.26467,-3.41252 3.41252,1.14785 -1.14785,-3.41252 3.41252,-2.26467 -3.41252,-2.26467 1.14785,-3.41252 -3.41252,1.14785 z m -0.99273,4.03298 h 1.98546 v 4.93264 h -1.98546 z m 1.02375,5.64616 c 0.70247,0 1.27194,0.56947 1.27194,1.27194 0,0.70247 -0.56947,1.27194 -1.27194,1.27194 -0.70247,0 -1.27194,-0.56947 -1.27194,-1.27194 0,-0.70247 0.56947,-1.27194 1.27194,-1.27194 z"
+       class="warning" />
+  </g>
+  <g
+     id="layer10"
+     transform="translate(-181.0002,-257)" />
+  <g
+     id="layer11"
+     transform="translate(-181.0002,-257)" />
+  <g
+     id="layer12"
+     transform="translate(-181.0002,-257)" />
+  <g
+     id="layer13"
+     transform="translate(-181.0002,-257)" />
+  <g
+     id="layer14"
+     transform="translate(-181.0002,-257)" />
+  <g
+     style="display:inline"
+     id="layer15"
+     transform="translate(-181.0002,-257)" />
+  <g
+     style="display:inline"
+     id="g4953"
+     transform="translate(-181.0002,-257)" />
+</svg>

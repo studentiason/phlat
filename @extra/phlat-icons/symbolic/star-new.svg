@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="16"
+   version="1.1"
+   id="svg7384"
+   height="16">
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <defs
+     id="defs7386" />
+  <g
+     transform="translate(-321.0002,-827)"
+     style="display:inline"
+     id="layer9" />
+  <g
+     transform="translate(-321.0002,-827)"
+     style="display:inline"
+     id="layer10" />
+  <g
+     transform="translate(-321.0002,-827)"
+     id="layer11" />
+  <g
+     transform="translate(-321.0002,-827)"
+     style="display:inline"
+     id="layer13" />
+  <g
+     transform="translate(-321.0002,-827)"
+     id="layer14" />
+  <g
+     transform="translate(-321.0002,-827)"
+     style="display:inline"
+     id="layer15" />
+  <g
+     transform="translate(-321.0002,-827)"
+     style="display:inline"
+     id="g71291" />
+  <g
+     transform="translate(-321.0002,-827)"
+     style="display:inline"
+     id="g4953" />
+  <g
+     transform="translate(-321.0002,-827)"
+     style="display:inline"
+     id="layer12">
+    <path
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+       id="path11922-4"
+       d="m 329.0002,827.6875 c -1.00052,-0.004 -1.56313,3.54025 -2.375,4.125 -0.81155,0.58452 -4.34351,-0.0125 -4.65625,0.9375 -0.31286,0.95036 2.88225,2.57842 3.1875,3.53125 0.30513,0.95245 -1.3381,4.12776 -0.53125,4.71875 0.80717,0.59122 3.34323,-1.94163 4.34375,-1.9375 1.00013,0.004 3.5011,2.58473 4.3125,2 0.81172,-0.58496 -0.81311,-3.79972 -0.5,-4.75 0.31298,-0.9499 3.52413,-2.54763 3.21875,-3.5 -0.3055,-0.95275 -3.84924,-0.37732 -4.65625,-0.96875 -0.8067,-0.5912 -1.34362,-4.15238 -2.34375,-4.15625 z m -1,4.3125 h 2 v 2 h 2 v 2 h -2 v 2 h -2 v -2 h -2 v -2 h 2 z" />
+  </g>
+</svg>

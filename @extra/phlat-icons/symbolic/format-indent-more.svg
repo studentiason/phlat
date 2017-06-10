@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg7384">
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <defs
+     id="defs7386" />
+  <g
+     style="display:inline"
+     id="layer9"
+     transform="translate(-161.0002,-277)">
+    <path
+       id="rect3825-9-8-7-9-1-7"
+       d="m 169,279.99979 h 5 V 282 h -5 z"
+       style="color:#f1f2f2;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:1;marker:none" />
+    <path
+       id="rect3825-9-8-7-8-4-7-66"
+       d="m 169,283.99979 h 6 V 286 h -6 z"
+       style="color:#f1f2f2;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:1;marker:none" />
+    <path
+       id="rect3825-9-8-7-8-9-9-8-8"
+       d="M 163.0004,287.99979 H 170 V 290 h -6.9996 z"
+       style="color:#f1f2f2;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:1;marker:none" />
+    <path
+       style="color:#f1f2f2;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:'Bitstream Vera Sans';-inkscape-font-specification:'Bitstream Vera Sans';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+       id="rect3217-6-2-2-4"
+       d="m 163,280 v 1 c 0,0.25689 0.12983,0.52846 0.3125,0.71875 L 164.59375,283 163.3125,284.28125 C 163.12983,284.47154 163,284.74311 163,285 v 1 h 1 c 0.30945,0 0.55232,-0.0903 0.75,-0.28125 L 167.40625,283 164.75,280.28125 C 164.55232,280.0903 164.30945,280 164,280 Z" />
+  </g>
+  <g
+     id="layer10"
+     transform="translate(-161.0002,-277)" />
+  <g
+     id="layer11"
+     transform="translate(-161.0002,-277)" />
+  <g
+     id="layer12"
+     transform="translate(-161.0002,-277)" />
+  <g
+     id="layer13"
+     transform="translate(-161.0002,-277)" />
+  <g
+     id="layer14"
+     transform="translate(-161.0002,-277)" />
+  <g
+     style="display:inline"
+     id="layer15"
+     transform="translate(-161.0002,-277)" />
+  <g
+     style="display:inline"
+     id="g4953"
+     transform="translate(-161.0002,-277)" />
+</svg>

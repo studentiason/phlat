@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="15.999536"
+   height="15.993952"
+   version="1.1"
+   id="svg7384">
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <defs
+     id="defs7386" />
+  <g
+     style="display:inline"
+     id="layer9"
+     transform="translate(-61.000665,-787)" />
+  <g
+     id="layer10"
+     transform="translate(-61.000665,-787)" />
+  <g
+     id="layer11"
+     transform="translate(-61.000665,-787)" />
+  <g
+     id="layer13"
+     transform="translate(-61.000665,-787)" />
+  <g
+     id="layer14"
+     transform="translate(-61.000665,-787)" />
+  <g
+     style="display:inline"
+     id="layer15"
+     transform="translate(-61.000665,-787)" />
+  <g
+     style="display:inline"
+     id="g71291"
+     transform="translate(-61.000665,-787)" />
+  <g
+     style="display:inline"
+     id="g4953"
+     transform="translate(-61.000665,-787)" />
+  <g
+     style="display:inline"
+     id="layer12"
+     transform="translate(-61.000665,-787)">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#669900;fill-opacity:1;stroke:none;stroke-width:3;marker:none;enable-background:accumulate"
+       id="path8913-6-7-1-5"
+       d="M 72.9375,790.9375 68,795.875 l -1.9375,-1.9375 -2.125,2.125 3,3 1.0625,1.0625 1.0625,-1.0625 6,-6 z" />
+  </g>
+</svg>

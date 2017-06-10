@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="16"
+   version="1.1"
+	 viewBox="-4 -4 24 24"
+
+   id="svg7384"
+   height="16">
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <defs
+     id="defs7386" />
+  <g
+     transform="translate(-261.0002,-767)"
+     style="display:inline"
+     id="layer9" />
+  <g
+     transform="translate(-261.0002,-767)"
+     style="display:inline"
+     id="layer10" />
+  <g
+     transform="translate(-261.0002,-767)"
+     id="layer11" />
+  <g
+     transform="translate(-261.0002,-767)"
+     style="display:inline"
+     id="layer13" />
+  <g
+     transform="translate(-261.0002,-767)"
+     id="layer14" />
+  <g
+     transform="translate(-261.0002,-767)"
+     style="display:inline"
+     id="layer15" />
+  <g
+     transform="translate(-261.0002,-767)"
+     style="display:inline"
+     id="g71291" />
+  <g
+     transform="translate(-261.0002,-767)"
+     style="display:inline"
+     id="g4953" />
+  <g
+     transform="translate(-261.0002,-767)"
+     style="display:inline"
+     id="layer12">
+    <path
+       style="color:#000000;clip-rule:evenodd;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:new"
+       id="path26492"
+       d="m 265.0002,781.42734 c 0,0.86794 -0.70471,1.57266 -1.57266,1.57266 -0.86795,0 -1.57266,-0.70472 -1.57266,-1.57266 0,-0.86795 1.79571,-3.34735 1.79571,-3.34735 0,0 1.34961,2.4794 1.34961,3.34735 z" />
+    <path
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:new"
+       id="path26533"
+       d="m 271.0002,769 -6,6 -1,2.44194 0.49177,0.55806 2.50823,-1 6,-6 z m 0,1 1,1 -4,4 h -2 z" />
+    <path
+       id="path26535"
+       d="M -7.5000017,554.25 A 2.7499993,2.7499993 0 0 1 -10.250001,557 2.7499993,2.7499993 0 0 1 -13,554.25 a 2.7499993,2.7499993 0 0 1 2.749999,-2.75 2.7499993,2.7499993 0 0 1 2.7499993,2.75 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:new"
+       transform="translate(282.5002,215.5)" />
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:new"
+       id="path26540"
+       d="m 267.59395,769 0.6875,0.71875 4,4 0.71875,0.6875 1.125,-1.125 -0.40625,-1 -4,-4 -1.15625,-0.25 z" />
+  </g>
+</svg>

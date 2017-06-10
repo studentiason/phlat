@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="16.000198"
+   version="1.1"
+   id="svg7384"
+   height="16">
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <defs
+     id="defs7386" />
+  <g
+     transform="translate(-61.000202,-397)"
+     style="display:inline"
+     id="layer9">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+       id="path26639"
+       d="M 62.53125,398 C 61.683847,398 61,398.68385 61,399.53125 v 10.9375 C 61,411.28683 61.713122,412 62.53125,412 h 12.9375 C 76.286662,412 77,411.28677 77,410.46875 v -8.875 C 77,400.72323 76.276717,400 75.40625,400 H 69 v -0.46875 C 69,398.68387 68.316106,398 67.46875,398 Z M 63,400 h 4 v 1 1 h 1 7 v 8 H 63 Z" />
+  </g>
+  <g
+     transform="translate(-61.000202,-397)"
+     style="display:inline"
+     id="layer10" />
+  <g
+     transform="translate(-61.000202,-397)"
+     id="layer11" />
+  <g
+     transform="translate(-61.000202,-397)"
+     style="display:inline"
+     id="layer13" />
+  <g
+     transform="translate(-61.000202,-397)"
+     id="layer14" />
+  <g
+     transform="translate(-61.000202,-397)"
+     style="display:inline"
+     id="layer15" />
+  <g
+     transform="translate(-61.000202,-397)"
+     style="display:inline"
+     id="g71291" />
+  <g
+     transform="translate(-61.000202,-397)"
+     style="display:inline"
+     id="g4953" />
+  <g
+     transform="translate(-61.000202,-397)"
+     style="display:inline"
+     id="layer12" />
+</svg>

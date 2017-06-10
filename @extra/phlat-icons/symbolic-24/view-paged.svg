@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="16.0002"
+   version="1.1"
+	 viewBox="-4 -4 24 24"
+
+   id="svg7384"
+   height="16.000122">
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <defs
+     id="defs7386" />
+  <g
+     transform="translate(-161,-866.99988)"
+     style="display:inline"
+     id="layer9" />
+  <g
+     transform="translate(-161,-866.99988)"
+     id="layer10" />
+  <g
+     transform="translate(-161,-866.99988)"
+     id="layer11" />
+  <g
+     transform="translate(-161,-866.99988)"
+     id="layer13" />
+  <g
+     transform="translate(-161,-866.99988)"
+     id="layer14" />
+  <g
+     transform="translate(-161,-866.99988)"
+     style="display:inline"
+     id="layer15" />
+  <g
+     transform="translate(-161,-866.99988)"
+     style="display:inline"
+     id="g71291" />
+  <g
+     transform="translate(-161,-866.99988)"
+     style="display:inline"
+     id="g4953" />
+  <g
+     transform="translate(-161,-866.99988)"
+     style="display:inline"
+     id="layer12">
+    <path
+       style="color:#f1f2f2;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:1.99999988;marker:none;enable-background:accumulate"
+       id="rect7352-7-94"
+       d="m 162,867 v 1 11 1 h 1 10 1 v -1 -11 -1 h -1 -10 z m 2,2 h 8 v 9 h -8 z" />
+    <path
+       style="color:#f1f2f2;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+       id="rect7352-7-9-6"
+       d="m 175.0002,869.99988 v 11 h -10 v 2 h 12 v -13 z" />
+    <path
+       id="rect42942-5-3-1-4-0-0"
+       d="m -169.62521,870.99969 h 3.25 c 0.20775,0 0.375,0.16725 0.375,0.375 v 1.25022 c 0,0.20775 -0.16725,0.375 -0.375,0.375 h -3.25 c -0.20775,0 -0.375,-0.16725 -0.375,-0.375 v -1.25022 c 0,-0.20775 0.16725,-0.375 0.375,-0.375 z"
+       style="color:#f1f2f2;display:inline;overflow:visible;visibility:visible;opacity:0.35;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:1;marker:none"
+       transform="scale(-1,1)" />
+    <path
+       id="rect42944-7-5-3-5-1-5-0-8-7"
+       d="m -169.62521,873.99988 h 3.25 c 0.20775,0 0.375,0.16725 0.375,0.375 v 1.25 c 0,0.20775 -0.16725,0.375 -0.375,0.375 h -3.25 c -0.20775,0 -0.375,-0.16725 -0.375,-0.375 v -1.25 c 0,-0.20775 0.16725,-0.375 0.375,-0.375 z"
+       style="color:#f1f2f2;display:inline;overflow:visible;visibility:visible;opacity:0.35;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:1;marker:none"
+       transform="scale(-1,1)" />
+  </g>
+</svg>

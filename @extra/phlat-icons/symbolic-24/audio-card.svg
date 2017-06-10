@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg7384"
+   height="16.014242"
+   width="16.014242"
+   version="1.1"
+	 viewBox="-4 -4 24 24"
+>
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <defs
+     id="defs7386" />
+  <g
+     transform="translate(-301,-447)"
+     id="layer9"
+     style="display:inline" />
+  <g
+     transform="translate(-301,-447)"
+     id="layer10">
+    <path
+       id="path4781"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+       d="M 313.90625,448 A 1.0001,1.0001 0 0 0 313,449 v 13 a 1.0001,1.0001 0 1 0 2,0 v -12 h 1 a 1.0001,1.0001 0 1 0 0,-2 h -2 a 1.0001,1.0001 0 0 0 -0.0937,0 z" />
+    <path
+       id="rect5551"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:1;marker:none;enable-background:new"
+       d="m 314,453 v 0.5 2 0.5 h 0.5 2 0.5 v -0.5 -2 -0.5 h -0.5 -2 z m 1,1 h 1 v 1 h -1 z" />
+    <path
+       id="rect5551-4"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:1;marker:none;enable-background:new"
+       d="m 314,457 v 0.5 2 0.5 h 0.5 2 0.5 v -0.5 -2 -0.5 h -0.5 -2 z m 1,1 h 1 v 1 h -1 z" />
+    <path
+       id="path5571"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+       d="m 301,451 v 1 10 1 h 1 8 1 v -1 -1 h 1 v -2 h -1 -1 -1 v 1 1 h -6 v -8 h 2 1 v -2 h -1 -3 z" />
+    <path
+       id="rect3818-0"
+       style="display:inline;fill:#f1f2f2;fill-opacity:1;stroke:none"
+       d="m 307,448 5.0002,4 H 309 v 4.53124 h -2 z" />
+    <path
+       id="path3822-1"
+       d="M 9.625,223.6875 A 6.0625,5.9375 0 0 1 3.5625,229.625 6.0625,5.9375 0 0 1 -2.5,223.6875 6.0625,5.9375 0 0 1 3.5625,217.75 6.0625,5.9375 0 0 1 9.625,223.6875 Z"
+       style="display:inline;fill:#f1f2f2;fill-opacity:1;stroke:none"
+       transform="matrix(0.41157264,0,0,0.4202381,305.03397,362.50283)" />
+  </g>
+  <g
+     transform="translate(-301,-447)"
+     id="layer11" />
+  <g
+     transform="translate(-301,-447)"
+     id="layer13" />
+  <g
+     transform="translate(-301,-447)"
+     id="layer14" />
+  <g
+     transform="translate(-301,-447)"
+     id="layer15"
+     style="display:inline" />
+  <g
+     id="g71291"
+     transform="translate(-301,-447)"
+     style="display:inline" />
+  <g
+     transform="translate(-301,-447)"
+     id="g4953"
+     style="display:inline" />
+  <g
+     transform="translate(-301,-447)"
+     id="layer12"
+     style="display:inline" />
+</svg>

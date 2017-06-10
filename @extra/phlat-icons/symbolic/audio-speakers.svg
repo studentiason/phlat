@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="16"
+   version="1.1"
+   id="svg7384"
+   height="16">
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <defs
+     id="defs7386" />
+  <g
+     transform="translate(-161.0002,-467)"
+     style="display:inline"
+     id="layer9" />
+  <g
+     transform="translate(-161.0002,-467)"
+     style="display:inline"
+     id="layer10">
+    <path
+       style="color:#f1f2f2;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none"
+       id="path5491-6"
+       d="m 162.0002,472 h 2.48437 l 2.96876,-3 0.54687,0.0156 v 12 l -0.4753,8.3e-4 L 164.48457,478 h -2.48437 z" />
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+       id="path8311"
+       d="m 172.875,468 a 1.0001,1.0001 0 0 0 -0.59375,0.28125 l -2,2 a 1.016466,1.016466 0 1 0 1.4375,1.4375 l 2,-2 A 1.0001,1.0001 0 0 0 172.875,468 Z" />
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+       id="path9081"
+       d="m 170.78125,478 a 1.0001,1.0001 0 0 0 -0.5,1.71875 l 2,2 a 1.016466,1.016466 0 1 0 1.4375,-1.4375 l -2,-2 A 1.0001,1.0001 0 0 0 170.78125,478 Z" />
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+       id="path9083"
+       d="M 170.90625,474 A 1.001098,1.001098 0 1 0 171,476 l 4.03125,0.0312 a 1.0001,1.0001 0 1 0 0,-2 L 171,474 a 1.0001,1.0001 0 0 0 -0.0937,0 z" />
+    <path
+       id="rect9102"
+       d="m 170.0002,471 h 1 v 1 h -1 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
+    <path
+       id="rect9104"
+       d="m 170.0002,478 h 1 v 1 h -1 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
+  </g>
+  <g
+     transform="translate(-161.0002,-467)"
+     id="layer11" />
+  <g
+     transform="translate(-161.0002,-467)"
+     style="display:inline"
+     id="layer13" />
+  <g
+     transform="translate(-161.0002,-467)"
+     id="layer14" />
+  <g
+     transform="translate(-161.0002,-467)"
+     style="display:inline"
+     id="layer15" />
+  <g
+     transform="translate(-161.0002,-467)"
+     style="display:inline"
+     id="g71291" />
+  <g
+     transform="translate(-161.0002,-467)"
+     style="display:inline"
+     id="g4953" />
+  <g
+     transform="translate(-161.0002,-467)"
+     style="display:inline"
+     id="layer12" />
+</svg>

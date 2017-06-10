@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="16"
+   version="1.1"
+   id="svg7384"
+   height="16">
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <defs
+     id="defs7386" />
+  <g
+     transform="translate(-441.00021,-539)"
+     style="display:inline"
+     id="layer9" />
+  <g
+     transform="translate(-441.00021,-539)"
+     id="layer10" />
+  <g
+     transform="translate(-441.00021,-539)"
+     id="layer11" />
+  <g
+     transform="translate(-441.00021,-539)"
+     id="layer13" />
+  <g
+     transform="translate(-441.00021,-539)"
+     id="layer14" />
+  <g
+     transform="translate(-441.00021,-539)"
+     style="display:inline"
+     id="layer15" />
+  <g
+     transform="translate(-441.00021,-539)"
+     style="display:inline"
+     id="g71291">
+    <path
+       style="display:inline;fill:#f1f2f2;fill-opacity:1;stroke:none"
+       id="path5619-4"
+       d="m 449.0002,540 c -1.65216,0 -3.17769,0.57397 -4.375,1.53125 -1.13384,-0.44386 -2.09344,-0.94913 -2.6875,-1.46875 l -0.0937,0.59375 c -0.0334,0.27084 0.10323,1.51302 1.15625,2.75 -0.63172,1.05171 -1,2.27758 -1,3.59375 0,3.86599 3.13401,7 7,7 3.86599,0 7,-3.13401 7,-7 0,-1.29065 -0.35953,-2.49314 -0.96875,-3.53125 1.011,-1.21813 1.18917,-2.38943 1.15625,-2.65625 l -0.0937,-0.59375 c -0.57868,0.50616 -1.49864,0.97101 -2.59375,1.40625 -0.006,-0.005 -0.0256,0.005 -0.0312,0 -1.21509,-1.01518 -2.76196,-1.625 -4.4689,-1.625 z m -2,4 c 0.55833,0 1.03125,0.47292 1.03125,1.03125 V 546 c 0,0.55833 -0.47292,1 -1.03125,1 -0.55833,0 -1,-0.44167 -1,-1 v -0.96875 c 0,-0.55833 0.44167,-1.03125 1,-1.03125 z m 4,0 c 0.55833,0 1,0.47292 1,1.03125 V 546 c 0,0.55833 -0.44167,1 -1,1 -0.55833,0 -1,-0.44167 -1,-1 v -0.96875 c 0,-0.55833 0.44167,-1.03125 1,-1.03125 z m 2,4.97812 c -0.0291,0.34377 -0.92509,3.00323 -4,3.00938 -2.7886,0.006 -4,-2.55838 -4,-2.98438 z" />
+  </g>
+  <g
+     transform="translate(-441.00021,-539)"
+     style="display:inline"
+     id="g4953" />
+  <g
+     transform="translate(-441.00021,-539)"
+     style="display:inline"
+     id="layer12" />
+</svg>

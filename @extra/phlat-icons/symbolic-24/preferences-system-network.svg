@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="16"
+   version="1.1"
+	 viewBox="-4 -4 24 24"
+
+   id="svg7384"
+   height="16">
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <defs
+     id="defs7386" />
+  <g
+     transform="translate(-203.00045,-529)"
+     style="display:inline"
+     id="layer9" />
+  <g
+     transform="translate(-203.00045,-529)"
+     id="layer10" />
+  <g
+     transform="translate(-203.00045,-529)"
+     id="layer11">
+    <g
+       transform="translate(183.00045,312)"
+       id="g4649">
+      <path
+         transform="translate(20,257)"
+         style="color:#f1f2f2;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+         id="path4651"
+         d="M 1.75,-36 C 0.797797,-36 0,-35.2022 0,-34.25 v 4.5 C 0,-28.7978 0.797797,-28 1.75,-28 H 1.875 L 1.09375,-26.4375 0.375,-25 H 2 8 9.625 L 8.90625,-26.4375 8.125,-28 H 8.25 c 0.952203,0 1.75,-0.7978 1.75,-1.75 v -4.5 C 10,-35.2022 9.202203,-36 8.25,-36 Z M 2,-34 h 6 v 4 H 2 Z" />
+    </g>
+    <path
+       style="color:#f1f2f2;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:'Andale Mono';text-indent:0pt;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:2;marker:none"
+       id="path4653"
+       d="m 210.7502,530 c -0.9522,0 -1.75,0.7978 -1.75,1.75 V 532 h 2 0.25 5.75 v 4 h -3 v 3.25 c 0,0.6591 -0.25164,1.26982 -0.65625,1.75 h 5.28125 l -1.5,-3 h 0.125 c 0.9522,0 1.75,-0.7978 1.75,-1.75 v -4.5 c 0,-0.9522 -0.7978,-1.75 -1.75,-1.75 z" />
+  </g>
+  <g
+     transform="translate(-203.00045,-529)"
+     id="layer13" />
+  <g
+     transform="translate(-203.00045,-529)"
+     id="layer14" />
+  <g
+     transform="translate(-203.00045,-529)"
+     style="display:inline"
+     id="layer15" />
+  <g
+     transform="translate(-203.00045,-529)"
+     style="display:inline"
+     id="g71291" />
+  <g
+     transform="translate(-203.00045,-529)"
+     style="display:inline"
+     id="g4953" />
+  <g
+     transform="translate(-203.00045,-529)"
+     style="display:inline"
+     id="layer12" />
+</svg>

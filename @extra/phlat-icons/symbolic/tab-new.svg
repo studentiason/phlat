@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   height="16"
+   id="svg7384"
+   version="1.1"
+   width="16.00001">
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <defs
+     id="defs7386">
+    <linearGradient
+       gradientTransform="matrix(-2.7365795,0.28202934,-0.18908311,-0.99988321,239.54008,-879.45557)"
+       id="linearGradient19282"
+       osb:paint="solid">
+      <stop
+         id="stop19284"
+         offset="0"
+         style="stop-color:#666666;stop-opacity:1;" />
+    </linearGradient>
+  </defs>
+  <g
+     id="layer9"
+     style="display:inline"
+     transform="translate(-120.00019,-806)" />
+  <g
+     id="layer10"
+     style="display:inline"
+     transform="translate(-120.00019,-806)" />
+  <g
+     id="layer11"
+     transform="translate(-120.00019,-806)" />
+  <g
+     id="layer13"
+     style="display:inline"
+     transform="translate(-120.00019,-806)" />
+  <g
+     id="layer14"
+     transform="translate(-120.00019,-806)" />
+  <g
+     id="layer15"
+     style="display:inline"
+     transform="translate(-120.00019,-806)" />
+  <g
+     id="g71291"
+     style="display:inline"
+     transform="translate(-120.00019,-806)" />
+  <g
+     id="g4953"
+     style="display:inline"
+     transform="translate(-120.00019,-806)" />
+  <g
+     id="layer12"
+     style="display:inline"
+     transform="translate(-120.00019,-806)">
+    <path
+       style="display:inline;opacity:1;fill:#f1f2f2;fill-opacity:1;stroke:none;enable-background:new"
+       d="M 4,3 C 4,3 2,3 2,5 v 7 c 0,1 -1,1 -1,1 H 0 v 2 h 16 v -2 h -1 c 0,0 -1,0 -1,-1 V 7.8339844 H 8.8691406 C 8.3879796,7.8339844 8,7.4436489 8,6.9570312 V 3 Z"
+       transform="translate(120.00019,806)"
+       id="path3027-5" />
+    <path
+       d="m 131.00019,807 v 2 h -2 v 2 h 2 v 2 h 2.00001 v -2 h 2 v -2 h -2 v -2 z"
+       id="rect12294"
+       style="display:inline;fill:#669900;fill-opacity:1;stroke:none" />
+  </g>
+</svg>

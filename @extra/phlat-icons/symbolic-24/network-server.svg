@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="16.000002"
+   version="1.1"
+	 viewBox="-4 -4 24 24"
+
+   id="svg7384"
+   height="16">
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <defs
+     id="defs7386" />
+  <g
+     transform="translate(-501.0002,-175)"
+     style="display:inline"
+     id="layer9" />
+  <g
+     transform="translate(-501.0002,-175)"
+     style="display:inline"
+     id="layer10" />
+  <g
+     transform="translate(-501.0002,-175)"
+     id="layer11" />
+  <g
+     transform="translate(-501.0002,-175)"
+     style="display:inline"
+     id="layer13">
+    <path
+       style="display:inline;fill:#f1f2f2;fill-opacity:1;stroke:none"
+       id="path11106"
+       d="m 507.0002,187 v 2 h -5.53125 c -0.26299,0 -0.46875,0.2057 -0.46875,0.4688 v 1.0624 c 0,0.263 0.20576,0.4688 0.46875,0.4688 4.35417,0 8.70833,0 13.0625,0 0.26299,0 0.46875,-0.2058 0.46875,-0.4688 v -1.0624 c 0,-0.263 -0.20575,-0.4688 -0.46875,-0.4688 h -5.53125 v -2 z" />
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+       id="rect11110"
+       d="m 505,175 c -1.0907,0 -2,0.9093 -2,2 v 8 c 0,1.0907 0.9093,2 2,2 h 6 c 1.0907,0 2,-0.9093 2,-2 v -8 c 0,-1.0907 -0.9093,-2 -2,-2 z m 0,2 h 6 v 8 h -6 z" />
+    <path
+       id="rect11880"
+       d="m 506.00021,178 h 4.00001 v 1 h -4.00001 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
+    <path
+       id="rect11882"
+       d="m 509.00021,180 h 1 v 1 h -1 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
+  </g>
+  <g
+     transform="translate(-501.0002,-175)"
+     id="layer14" />
+  <g
+     transform="translate(-501.0002,-175)"
+     style="display:inline"
+     id="layer15" />
+  <g
+     transform="translate(-501.0002,-175)"
+     style="display:inline"
+     id="g71291" />
+  <g
+     transform="translate(-501.0002,-175)"
+     style="display:inline"
+     id="g4953" />
+  <g
+     transform="translate(-501.0002,-175)"
+     style="display:inline"
+     id="layer12" />
+</svg>

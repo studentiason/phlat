@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg7384">
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <defs
+     id="defs7386" />
+  <g
+     style="display:inline"
+     id="layer9"
+     transform="translate(-262,-381)" />
+  <g
+     id="layer10"
+     transform="translate(-262,-381)" />
+  <g
+     id="layer11"
+     transform="translate(-262,-381)">
+    <g
+       id="g11722-3-5"
+       transform="translate(214,-17)" />
+    <path
+       style="color:#f1f2f2;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+       id="path5549"
+       d="m 274.1086,387 c 0.61968,0.75088 0.99548,1.7106 0.99548,2.76018 0,2.39905 -1.94483,4.34389 -4.3439,4.34389 -1.04958,0 -2.00928,-0.37579 -2.76018,-0.99547 0.52525,2.23887 2.53308,3.8914 4.93213,3.8914 2.79892,0 5.06787,-2.26897 5.06787,-5.06787 0,-2.39908 -1.65253,-4.40688 -3.8914,-4.93213 z" />
+    <path
+       id="rect5595"
+       d="m 268.51138,383.79041 c 0.39941,0 0.72097,0.32155 0.72097,0.72097 0,0.39941 -0.32156,0.72097 -0.72097,0.72097 -0.39942,0 -0.72097,-0.32156 -0.72097,-0.72097 0,-0.39942 0.32155,-0.72097 0.72097,-0.72097 z"
+       style="color:#f1f2f2;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" />
+    <path
+       id="rect5597"
+       d="m 272.51137,384.8125 c 0.38718,0 0.69888,0.3117 0.69888,0.69887 0,0.38718 -0.3117,0.69888 -0.69888,0.69888 -0.38717,0 -0.69887,-0.3117 -0.69887,-0.69888 0,-0.38717 0.3117,-0.69887 0.69887,-0.69887 z"
+       style="color:#f1f2f2;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" />
+    <path
+       id="rect5599"
+       d="m 269.51138,386.79041 c 0.39941,0 0.72097,0.32155 0.72097,0.72097 0,0.39941 -0.32156,0.72097 -0.72097,0.72097 -0.39942,0 -0.72097,-0.32156 -0.72097,-0.72097 0,-0.39942 0.32155,-0.72097 0.72097,-0.72097 z"
+       style="color:#f1f2f2;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" />
+    <path
+       id="path11638"
+       d="M 265,393 264.25492,390.74508 262,390 264.25492,389.25492 265,387 265.74508,389.25492 268,390 l -2.25492,0.74508 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#f1f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+       transform="translate(0.50492,-3.495079)" />
+  </g>
+  <g
+     id="layer12"
+     transform="translate(-262,-381)" />
+  <g
+     id="layer13"
+     transform="translate(-262,-381)" />
+  <g
+     id="layer14"
+     transform="translate(-262,-381)" />
+  <g
+     id="layer15"
+     transform="translate(-262,-381)" />
+</svg>
