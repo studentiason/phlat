@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 22 22">
+    <g color="#f1f2f2" fill="#f1f2f2">
+        <path style="line-height:normal;-inkscape-font-specification:'Bitstream Vera Sans';text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;marker:none" d="M2.188 0C.982 0 0 1.017 0 2.219V12.78C0 13.983.982 15 2.188 15h11.624C15.018 15 16 13.983 16 12.781V2.22C16 1.017 15.018 0 13.812 0zm0 2h11.624c.123 0 .188.08.188.219V12.78c0 .138-.065.219-.188.219H2.188C2.064 13 2 12.92 2 12.781V2.22c0-.14.065-.22.188-.22z" font-weight="400" font-family="Bitstream Vera Sans" overflow="visible"/>
+        <path style="line-height:normal;-inkscape-font-specification:'Bitstream Vera Sans';text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;marker:none" d="M4.313 5.906a.6.6 0 0 0-.25 1.032L5.625 8.5l-1.563 1.563a.619.619 0 1 0 .875.875l2-2a.6.6 0 0 0 0-.875l-2-2a.6.6 0 0 0-.625-.157z" font-weight="400" font-family="Bitstream Vera Sans" overflow="visible"/>
+        <path d="M8 10h3v1H8z" style="marker:none" overflow="visible"/>
+    </g>
+</svg>

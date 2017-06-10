@@ -11,15 +11,36 @@ sh @extra/qt5ct/qss/maketheme.sh
 #create plain svgs
 #cd $basedir/@extra/phlat-icons/symbolic
 #for f in $(find . -type f -name "*.svg"); do 
-	#inkscape --export-plain-svg=$f --vacuum-defs --export-text-to-path --no-convert-text-baseline-spacing --without-gui $f
+#	inkscape --export-plain-svg=$f --vacuum-defs --export-text-to-path --no-convert-text-baseline-spacing --without-gui $f
 #done
 #cd $basedir/@extra/phlat-icons
 #add a padding for bigger icons!
+##22px
+if [ -d $basedir/@extra/phlat-icons/symbolic-22 ]; then
+	rm -rfv $basedir/@extra/phlat-icons/symbolic-22
+fi
+cp -R $basedir/@extra/phlat-icons/symbolic $basedir/@extra/phlat-icons/symbolic-22
+cd $basedir/@extra/phlat-icons/symbolic-22
+for f in $(find . -type f -name "*.svg");do 
+	sed -i 's/viewBox="0 0 16 16"/viewBox="-2 -2 22 22"/' $f
+done
+cd $basedir
+##24px
 if [ -d $basedir/@extra/phlat-icons/symbolic-24 ]; then
 	rm -rfv $basedir/@extra/phlat-icons/symbolic-24
 fi
 cp -R $basedir/@extra/phlat-icons/symbolic $basedir/@extra/phlat-icons/symbolic-24
 cd $basedir/@extra/phlat-icons/symbolic-24
+for f in $(find . -type f -name "*.svg");do 
+	sed -i 's/viewBox="0 0 16 16"/viewBox="-4 -4 24 24"/' $f
+done
+cd $basedir
+#emblems
+if [ -d $basedir/@extra/phlat-icons/emblems-24 ]; then
+	rm -rfv $basedir/@extra/phlat-icons/emblems-24
+fi
+cp -R $basedir/@extra/phlat-icons/emblems $basedir/@extra/phlat-icons/emblems-24
+cd $basedir/@extra/phlat-icons/emblems-24
 for f in $(find . -type f -name "*.svg");do 
 	sed -i 's/viewBox="0 0 16 16"/viewBox="-4 -4 24 24"/' $f
 done
