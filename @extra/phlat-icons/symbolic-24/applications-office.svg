@@ -5,11 +5,39 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg30"
    version="1.1"
 	 viewBox="-4 -4 24 24"
 
->
+
+   sodipodi:docname="applications-office.svg"
+   inkscape:version="0.92.1 r15371">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1034"
+     id="namedview10"
+     showgrid="true"
+     inkscape:zoom="38.923135"
+     inkscape:cx="-0.47457627"
+     inkscape:cy="8"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg30">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4487" />
+  </sodipodi:namedview>
   <metadata
      id="metadata34">
     <rdf:RDF>
@@ -26,12 +54,14 @@
      id="defs12" />
   <path
      style="opacity:1;fill:#f1f2f2"
+     d="M 6,2 C 5,2 5,2 5,3 V 6 H 6 V 3 h 4 v 3 h 1 V 3 C 11,2 11,2 10,2 Z"
      id="path14"
-     d="M 4,2 V 8 H 6 V 4 h 4 v 4 h 2 V 2 Z" />
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ssccccccsss" />
   <path
-     style="fill:#f1f2f2;opacity:1"
-     id="path18"
-     d="M 1,5 H 15 V 15 H 1 Z" />
+     style="opacity:1;fill:#f1f2f2"
+     d="M 2 5 C 1 5 1 5 1 6 L 1 14 C 1 15 1 15 2 15 L 14 15 C 15 15 15 15 15 14 L 15 6 C 15 5 15 5 14 5 L 2 5 z M 2.8007812 6 L 13.199219 6 C 13.642419 6 14 6.3575813 14 6.8007812 L 14 13.199219 C 14 13.642419 13.642419 14 13.199219 14 L 2.8007812 14 C 2.3575813 14 2 13.642419 2 13.199219 L 2 6.8007812 C 2 6.3575814 2.3575814 6 2.8007812 6 z "
+     id="path18" />
   <g
      transform="translate(0,1)"
      style="opacity:1;fill:#f1f2f2"
@@ -39,9 +69,15 @@
     <path
        style="fill:#f1f2f2"
        id="path20"
-       d="m 13,3 h 1 V 4 H 13 Z M 2,3 H 3 V 4 H 2 Z" />
+       d="m 12,3 h 2 V 4 H 12 Z M 2,3 H 4 V 4 H 2 Z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccc" />
   </g>
   <g
      id="g28"
      fill="none" />
+  <path
+     style="opacity:0.3;fill:#f1f2f2"
+     d="M 2.8007812 6 C 2.3575813 6 2 6.3575813 2 6.8007812 L 2 13.199219 C 2 13.642419 2.3575813 14 2.8007812 14 L 13.199219 14 C 13.642419 14 14 13.642419 14 13.199219 L 14 6.8007812 C 14 6.3575813 13.642419 6 13.199219 6 L 2.8007812 6 z "
+     id="path4491" />
 </svg>
