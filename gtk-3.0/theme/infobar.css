@@ -4,6 +4,7 @@ margin:2px;}
 infobar{
 border:1px solid rgba(0,0,0,0.6);
 color:@text_color;
+font-weight:bold;
 background:@selected_bg_color;}
 .info{
 background:@info_color;}

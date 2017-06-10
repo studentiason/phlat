@@ -20,12 +20,13 @@ fi
 if type xfconf-query >/dev/null 2>&1; then
 	xfconf-query -c xsettings -p /Net/ThemeName -s "phlat" || true
 	xfconf-query -c xsettings -p /Gtk/ButtonImages -s false || true
-	xfconf-query -c xsettings -p /Gtk/MenuImages -s false || true
+	xfconf-query -c xsettings -p /Gtk/MenuImages -s true || true
 	xfconf-query -c xfwm4 -p /general/theme -s "phlat" || true
 	xfconf-query -c xfce4-notifyd -p /theme -s "phlat" || true
 	xfconf-query -c xfce4-session -p /splash/Engine -s "balou" || true
 	xfconf-query -c xfce4-session -p /splash/engines/balou/Theme -s "phlat" || true
 	xfconf-query -c xfdashboard -p /theme -s "phlat" || true
+	xfconf-query -c xsettings -p /Net/IconThemeName -s "phlat" || true
 fi
 printf "\ndone\n"
 sh "$basedir"/setgsettings.sh

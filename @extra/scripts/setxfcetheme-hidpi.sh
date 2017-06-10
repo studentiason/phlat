@@ -20,13 +20,14 @@ fi
 if type xfconf-query >/dev/null 2>&1; then
 	xfconf-query -c xsettings -p /Net/ThemeName -s "phlat-HiDPI" || true
 	xfconf-query -c xsettings -p /Gtk/ButtonImages -s false || true
-	xfconf-query -c xsettings -p /Gtk/MenuImages -s false || true
+	xfconf-query -c xsettings -p /Gtk/MenuImages -s true || true
 	xfconf-query -c xfwm4 -p /general/theme -s "phlat-HiDPI" || true
 	xfconf-query -c xfce4-notifyd -p /theme -s "phlat-HiDPI" || true
 	xfconf-query -c xfce4-session -p /splash/Engine -s "balou" || true
 	xfconf-query -c xfce4-session -p /splash/engines/balou/Theme -s "phlat-HiDPI" || true
 	xfconf-query -c xfdashboard -p /theme -s "phlat-HiDPI" || true
 	xfconf-query -c xsettings -p /Xft/DPI -s "192" || true
+	xfconf-query -c xsettings -p /Net/IconThemeName -s "phlat" || true
 fi
 if type yad >/dev/null 2>&1; then
 	yad --title "GTK3 HiDPI" --text="Also don't forget to add GDK_SCALE=2 to your environment!" --image="dialog-information" --button="gtk-ok:0"

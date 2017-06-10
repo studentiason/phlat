@@ -2,7 +2,7 @@ style"button"{
 GtkButton::shadow-type=GTK_SHADOW_NONE
 GtkButton::default-outside-border={0,0,0,0}
 GtkButton::default-border={0,0,0,0}
-GtkButton::inner-border={1,1,1,1}
+GtkButton::inner-border={2,2,2,2}
 bg[NORMAL]=@base_color
 bg[PRELIGHT]=@base_color
 bg[SELECTED]=@base_color

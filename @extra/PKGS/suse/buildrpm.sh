@@ -63,6 +63,13 @@ if [ -f /tmp/phlat.zip ]; then
 	unzip /tmp/phlat.zip -d ${_tmpdir}/usr/share/themes
 	mv ${_tmpdir}/usr/share/themes/phlat-master ${_tmpdir}/usr/share/themes/phlat
 fi
+#get the icon theme
+curl -L https://codeload.github.com/sixsixfive/phlat-icons/zip/master > /tmp/phlat-icons.zip
+if [ -f ${_tmpdir}/../phlat-icons.zip ]; then
+	unzip ${_tmpdir}/../phlat-icons.zip -d ${_tmpdir}/usr/share/themes/phlat/@extra
+	mv ${_tmpdir}/usr/share/themes/phlat/@extra/phlat-icons-master ${_tmpdir}/usr/share/themes/phlat/@extra/phlat-icons
+fi
+###link all themes
 if [ -d ${_tmpdir}/usr/share/themes/phlat ]; then
 #plank theme
 	mkdir -p ${_tmpdir}/usr/share/plank/themes
@@ -77,6 +84,9 @@ if [ -d ${_tmpdir}/usr/share/themes/phlat ]; then
 	ln -sf ../../themes/phlat/@extra/qt5ct/qss/phlat_QGtkStyle.qss ${_tmpdir}/usr/share/qt5ct/qss
 #hidpi
 	ln -sf phlat/@extra/phlat-hidpi ${_tmpdir}/usr/share/themes/phlat-HiDPI
+#icon theme
+	mkdir -p ${_tmpdir}/usr/share/icons
+	ln -sf ../themes/phlat/@extra/phlat-icons ${_tmpdir}/usr/share/icons/phlat
 #configstuff
 #	mkdir -p ${_tmpdir}/usr/share/applications
 #	ln -sf ../themes/phlat/@extra/scripts/phlat.desktop ${_tmpdir}/usr/share/applications

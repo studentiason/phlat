@@ -392,3 +392,12 @@ file="../images/gtk-2.0/xfsm.svg"
 stretch=TRUE
 border={33,1,33,1}}}}
 widget"*XfsmLogoutDialog*Gtk*Box*Box*"style"xfcelogout2"
+
+style"xfcelogout3"{
+engine"pixmap"{
+image{
+function=FLAT_BOX
+file="../images/gtk-2.0/none.svg"
+stretch=TRUE
+border={1,1,1,1}}}}
+widget"*XfsmLogoutDialog*Gtk*Box*GtkCheckButton*"style"xfcelogout3"

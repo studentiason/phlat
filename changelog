@@ -1,3 +1,10 @@
+phlat (0.20-1) unstable; urgency=low
+
+  * added a basic(not yet complete) icon theme to the suse and debian pkgs
+  * some minor fixes
+
+-- SSF <https://github.com/sixsixfive> at, 10 Jun 2017 11:54:47 +0200
+
 phlat (0.13-1) unstable; urgency=low
 
   * A usable Qt5 theme(QGtkStyle + QSS fixes)
