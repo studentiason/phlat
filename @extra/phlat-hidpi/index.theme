@@ -7,7 +7,7 @@ Encoding=UTF-8
 [X-GNOME-Metatheme]
 GtkTheme=phlat-HiDPI
 MetacityTheme=phlat-HiDPI
-IconTheme=breeze-dark
+IconTheme=phlat
 CursorTheme=DMZ-White
 CursorSize=48
 NotificationTheme=Coco
