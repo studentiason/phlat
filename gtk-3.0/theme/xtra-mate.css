@@ -41,14 +41,16 @@ font-weight:bold;}
 .mate-panel-menu-bar menubar:backdrop>menuitem:hover>label,
 #clock-applet-button:checked label{
 color:@selected_bg_color;}
+.mate-panel-menu-bar #showdesktop-button{
+background:transparent;}
+.mate-panel-menu-bar wnck-tasklist label{
+font-weight:bold;}
 
 .mate-panel-menu-bar #tasklist-button:hover {
 background-color:alpha(@selected_bg_color,0.7);}
-
 .mate-panel-menu-bar #tasklist-button:active,
 .mate-panel-menu-bar #tasklist-button:checked {
 background-color:@selected_bg_color;}
-
 .mate-panel-menu-bar #tasklist-button:disabled label{
 color:@inactive_fg_color;}
 
@@ -59,9 +61,10 @@ color:@fg_color;}
 #tasklist-button label,
 #tasklist-button,
 #PanelPlug #tasklist-button{
-font-weight:bold;}
+color:@selected_fg_color;}
 
-#PanelPlug #clock-applet-button:checked {
+#PanelPlug #clock-applet-button:checked,
+#PanelPlug #clock-applet-button:checked label {
 color:@selected_fg_color;
 background:@selected_bg_color;}
 
