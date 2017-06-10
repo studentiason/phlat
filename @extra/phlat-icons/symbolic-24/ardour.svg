@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="16"
+   width="16"
+
+   version="1.1"
+	 viewBox="-4 -4 24 24"
+
+   id="svg47"
+   sodipodi:docname="ardour.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata51">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Ivy icon theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2030"
+     inkscape:window-height="831"
+     id="namedview49"
+     showgrid="true"
+     inkscape:zoom="55.1"
+     inkscape:cx="7.1640797"
+     inkscape:cy="3.4212551"
+     inkscape:window-x="93"
+     inkscape:window-y="150"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg47">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4528" />
+  </sodipodi:namedview>
+  <defs
+     id="defs17" />
+  <title
+     id="title19">Ivy icon theme</title>
+  <path
+     style="fill:#f1f2f2;fill-opacity:1;stroke-width:0.46666801"
+     d="M 8.0039062 1 A 0.46671469 0.46671469 0 0 0 7.5820312 1.2578125 L 1.0488281 14.324219 A 0.46671469 0.46671469 0 0 0 1.6542969 14.960938 C 1.6542969 14.960938 2.2286911 14.726492 3 14.470703 L 3 12.5 C 3 12.223 3.223 12 3.5 12 C 3.777 12 4 12.223 4 12.5 L 4 14.183594 C 4.3418092 14.090925 4.6719726 13.999465 5.0351562 13.929688 C 5.0145025 13.874755 5 13.816231 5 13.753906 L 5 10.5 C 5 10.223 5.223 10 5.5 10 C 5.777 10 6 10.223 6 10.5 L 6 13.753906 C 6 13.768422 5.993388 13.780727 5.9921875 13.794922 C 6.1565044 13.77981 6.3235384 13.759344 6.4824219 13.755859 C 6.6689766 13.757756 6.8309941 13.776708 7 13.791016 L 7 11.5 C 7 11.223 7.223 11 7.5 11 C 7.777 11 8 11.223 8 11.5 L 8 13.939453 C 8.3197519 14.01178 8.6652322 14.111881 9 14.208984 L 9 12.5 C 9 12.223 9.223 12 9.5 12 C 9.777 12 10 12.223 10 12.5 L 10 14.476562 C 10.303538 14.555113 10.638193 14.6283 11 14.697266 L 11 13.5 C 11 13.223 11.223 13 11.5 13 C 11.777 13 12 13.223 12 13.5 L 12 14.851562 C 12.315164 14.890483 12.634207 14.927219 13 14.951172 L 13 14.5 C 13 14.223 13.223 14 13.5 14 C 13.777 14 14 14.223 14 14.5 L 14 14.982422 C 14.184188 14.986123 14.338453 15.00055 14.535156 15 A 0.46671469 0.46671469 0 0 0 14.951172 14.324219 L 8.4179688 1.2578125 A 0.46671469 0.46671469 0 0 0 8.0039062 1 z "
+     id="path4543" />
+</svg>
