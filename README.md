@@ -20,7 +20,6 @@
 * [GTK3-NOCSD](https://github.com/PCMan/gtk3-nocsd)
 * Xfce(Xfwm, Xfce-notify, Xfdashboard, xfce-windowck-plugin)
 * Chrome/Chromium(@GTK3)(any blink based browser will work due the internal styling of html forms)
-* [phlat icons](https://github.com/sixsixfive/phlat-icons)
 
 ### also included: 
 
