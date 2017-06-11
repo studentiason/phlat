@@ -1,6 +1,7 @@
 phlat (0.20-1) unstable; urgency=low
 
-  * added a basic(not yet complete) icon theme to the suse and debian pkgs
+  * added a matching icon theme
+  * re-enabled the icons in the menus
   * some minor fixes
 
 -- SSF <https://github.com/sixsixfive> at, 10 Jun 2017 11:54:47 +0200
