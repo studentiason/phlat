@@ -22,7 +22,7 @@ fi
 cp -R $basedir/@extra/phlat-icons/symbolic $basedir/@extra/phlat-icons/symbolic-22
 cd $basedir/@extra/phlat-icons/symbolic-22
 for f in $(find . -type f -name "*.svg");do 
-	sed -i 's/viewBox="0 0 16 16"/viewBox="-2 -2 22 22"/' $f
+	sed -i 's/viewBox="0 0 16 16"/viewBox="-3 -3 22 22"/' $f
 done
 cd $basedir
 ##24px
