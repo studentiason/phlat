@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" height="16" width="16" version="1.1" viewBox="0 0 4.2333332 4.2333335"><g transform="translate(0 -292.77)"><g id="draw-text-16px" transform="matrix(.26458 0 0 .26458 -84.137 71.479)"><g transform="translate(243.04 -31)"><g transform="translate(0,20)" fill="#f1f2f2"><rect height="16" width="1" y="847.36" x="74.956"/><rect height="1" width="16" y="847.36" x="74.956"/><rect height="16" width="1" y="847.36" x="89.956"/><rect height="1" width="16" y="862.36" x="74.956"/><rect height="1" width="16" y="850.36" x="74.956"/><rect height="1" width="16" y="853.36" x="74.956"/><rect height="1" width="16" y="856.36" x="74.956"/><rect height="1" width="16" y="859.36" x="74.956"/><rect height="16" width="1" y="847.36" x="77.956"/><rect height="16" width="1" y="847.36" x="80.956"/><rect height="16" width="1" y="847.36" x="83.956"/><rect height="16" width="1" y="847.36" x="86.956"/></g></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4.2333332 4.2333335">
+    <g fill="#f1f2f2">
+        <path d="M-.002-.007h.265v4.233h-.265z"/>
+        <path d="M-.002-.007h4.234v.265H-.002z"/>
+        <path d="M3.967-.007h.265v4.233h-.265z"/>
+        <path d="M-.002 3.962h4.234v.264H-.002zM-.002.787h4.234v.264H-.002zM-.002 1.58h4.234v.265H-.002zM-.002 2.374h4.234v.265H-.002zM-.002 3.168h4.234v.265H-.002z"/>
+        <path d="M.792-.007h.265v4.233H.792zM1.586-.007h.264v4.233h-.264zM2.38-.007h.264v4.233H2.38zM3.173-.007h.265v4.233h-.265z"/>
+    </g>
+</svg>
