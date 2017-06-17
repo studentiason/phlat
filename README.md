@@ -43,6 +43,8 @@ unzip master.zip
 mkdir -p $prefix/share/themes
 mv /tmp/phlat/phlat-master $prefix/share/themes/phlat
 ln -sf $prefix/share/themes/phlat/@extra/phlat-hidpi $prefix/share/themes/phlat-HiDPI
+mkdir -p $prefix/share/icons
+ln -sf $prefix/share/themes/phlat/@extra/phlat-icons $prefix/share/themes/phlat
 ```
 
 there are more sub themes in the @extra folder. Have a look into the [Debian postinstall](https://github.com/sixsixfive/phlat/blob/master/%40extra/PKGS/debian/postinst) or the [PKGBUILD](https://github.com/sixsixfive/phlat/blob/master/%40extra/PKGS/PKGBUILD/PKGBUILD) to get their paths.
