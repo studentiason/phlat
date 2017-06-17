@@ -1,10 +1,16 @@
+phlat (0.21-1) unstable; urgency=low
+
+  * improve the icon theme
+
+-- SSF <https://github.com/sixsixfive> Sat, 17 Jun 2017 11:51:21 +0200
+
 phlat (0.20-1) unstable; urgency=low
 
   * added a matching icon theme
   * re-enabled the icons in the menus
   * some minor fixes
 
--- SSF <https://github.com/sixsixfive> at, 10 Jun 2017 11:54:47 +0200
+-- SSF <https://github.com/sixsixfive> Sat, 10 Jun 2017 11:54:47 +0200
 
 phlat (0.13-1) unstable; urgency=low
 
