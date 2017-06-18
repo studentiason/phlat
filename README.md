@@ -28,6 +28,7 @@
 * Plank theme
 * Marco/Metacity theme
 * Onboard theme
+* A simple symbolic icon theme
 * Qt5 theme fixes
 * simple Firefox(@GTK3) stylish fixes (not recommend since XUL has some huge issues with dark themes)
 
@@ -51,42 +52,7 @@ there are more sub themes in the @extra folder. Have a look into the [Debian pos
 
 ### Packages
 
-#### Debian
-
-There is a [debian(>=testing) package](%40extra/PKGS/debian/phlat_1.0-1_all.deb) available that will install(and uninstall) the current master release and all main dependencies. 
-
-```
-wget https://raw.githubusercontent.com/sixsixfive/phlat/master/%40extra/PKGS/debian/phlat_1.0-1_all.deb
-su -c "dpkg -i phlat_1.0-1_all.deb || apt install -f"
-```
-
-NOTE: Qt5ct is currently not available on debian however you can get it [here](https://github.com/mati75/qt5ct):
-
-```
-git clone https://github.com/mati75/qt5ct.git && cd qt5ct
-su -c "apt install --no-install-recommends qtbase5-dev libqt5svg5-dev qtbase5-private-dev libmtdev-dev fakeroot"
-fakeroot debian/rules binary
-su -c "dpkg -i ../qt5ct_*.deb"
-rm ../qt5ct*.deb
-```
-
-#### Manjaro / Arch
-
-There is a [PKGBUILD](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/sixsixfive/phlat/tree/master/%40extra/PKGS/PKGBUILD) to install the current master release.
-
-```
-unzip PKGBUILD.zip && CD PKGBUILD
-makepkg -is
-```
-
-#### SuSE
-
-There is a [SuSE(=Thumbleweed) package](%40extra/PKGS/suse/phlat-1.0-1.noarch.rpm) available that will install(and uninstall) the current master release and all main dependencies. 
-
-```
-wget https://raw.githubusercontent.com/sixsixfive/phlat/master/%40extra/PKGS/suse/phlat-1.0-1.noarch.rpm
-sudo zypper install --no-recommends phlat-1.0-1.noarch.rpm
-```
+Packages can be found on my [opendesktop-page](https://www.opendesktop.org/s/XFCE/p/1175851/#files-panel).
 
 ## Optional
 
