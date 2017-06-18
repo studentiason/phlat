@@ -14,7 +14,6 @@ depends=('sed'
 makedepends=(git coreutils)
 optdepends=('qt5ct'
 	'qt5-styleplugins'
-	'ttf-roboto'
 	'xcursor-vanilla-dmz'
 	'gtk3-nocsd'
 	'xfwm4'
