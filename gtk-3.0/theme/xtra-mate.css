@@ -60,6 +60,7 @@ color:@fg_color;}
 #clock-applet-button label,
 #tasklist-button label,
 #tasklist-button,
+#tasklist-button *,
 #PanelPlug #tasklist-button{
 font-weight:bold;
 color:@selected_fg_color;}

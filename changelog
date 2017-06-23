@@ -1,3 +1,11 @@
+phlat (0.22-1) unstable; urgency=low
+
+  * many MATE fixes
+  * a few other fixes
+  * a few new icons
+
+-- SSF <https://github.com/sixsixfive> Fri, 23 Jun 2017 20:05:10 +0200
+
 phlat (0.21-1) unstable; urgency=low
 
   * improve the icon theme
