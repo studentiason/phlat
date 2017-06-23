@@ -61,6 +61,7 @@ color:@fg_color;}
 #tasklist-button label,
 #tasklist-button,
 #PanelPlug #tasklist-button{
+font-weight:bold;
 color:@selected_fg_color;}
 
 #PanelPlug #clock-applet-button:checked,
@@ -97,6 +98,13 @@ margin:-1px;}
 
 #MyControlCenter > frame{
 margin:3px;}
+#slab_section_style2 { 
+padding:6px;
+margin:-6px;
+border-color:transparent;
+background:@base_color;}
+#slab_section_style2>widget>box>label{ 
+color:@selected_base_color;}
 
 .caja-pathbar button {
 padding:0px;}
