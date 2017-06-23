@@ -1,4 +1,5 @@
-messagedialog .dialog-action-area > button{
+messagedialog .dialog-action-area > button,
+messagedialog .dialog-action-area > button:backdrop {
 margin:0px 3px;}
 
 printdialog.background>*,
