@@ -65,6 +65,9 @@ color:@fg_color;}
 font-weight:bold;
 color:@selected_fg_color;}
 
+#tasklist-button box image{
+opacity:0;}
+
 #PanelPlug #clock-applet-button:checked,
 #PanelPlug #clock-applet-button:checked label {
 color:@selected_fg_color;
