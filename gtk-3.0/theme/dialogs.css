@@ -1,3 +1,6 @@
+messagedialog .dialog-action-area > button{
+margin:0px 3px;}
+
 printdialog.background>*,
 printdialog.background>*:backdrop{
 background:@bg_color;}

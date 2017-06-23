@@ -2,7 +2,7 @@
 Name=phlat
 Comment=The phlat icon theme
 Example=xfce-logo
-Inherits=hicolor
+Inherits=hicolor, Adwaita
 
 Directories=symbolic,symbolic-22,symbolic-24,emblems,emblems-24
 
