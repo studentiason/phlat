@@ -52,7 +52,7 @@ there are more sub themes in the @extra folder. Have a look into the [Debian pos
 
 ### Packages
 
-Packages can be found on my [opendesktop-page](https://www.opendesktop.org/s/XFCE/p/1175851/#files-panel).
+Packages for Debian, SuSE and Manjaro can be found on my [Opendesktop-page](https://www.opendesktop.org/s/XFCE/p/1175851/#files-panel).
 
 ## Optional
 
@@ -74,17 +74,17 @@ Some popular colors:
 | ![#6F6A83](https://placehold.it/150x80/6F6A83/f1f2f2?text=6F6A83) | Devuan Purple | ![#35B9AB](https://placehold.it/150x80/35B9AB/f1f2f2?text=35B9AB) | SuSE Green |
 | ![#54487a](https://placehold.it/150x80/54487a/f1f2f2?text=54487A) | Gentoo Purple | ![#E95420](https://placehold.it/150x80/E95420/f1f2f2?text=E95420) | Ubuntu Orange |
 
-### Set all Xfce themes
+### Set all themes
 
-to set the whole xfce theme you can run the following script eg:
+to set the whole theme you can run the following script (replace <$desktop> with mate or xfce!) eg:
 
 
 ```
-sh $prefix/share/themes/phlat/@extra/scripts/setxfcetheme.sh
+sh $prefix/share/themes/phlat/@extra/scripts/set<$desktop>theme.sh
 ```
 
 or:
 
 ```
-sh $prefix/share/themes/phlat/@extra/scripts/setxfcetheme-hidpi.sh
+sh $prefix/share/themes/phlat/@extra/scripts/set<$desktop>theme-hidpi.sh
 ```
