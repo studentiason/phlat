@@ -16,7 +16,7 @@
 	<distance name="bottom_height" value="5"/>
 	<distance name="left_titlebar_edge" value="1"/>
 	<distance name="right_titlebar_edge" value="1"/>
-	<distance name="button_width" value="22"/>
+	<distance name="button_width" value="32"/>
 	<distance name="button_height" value="22"/>
 	<distance name="title_vertical_pad" value="2"/>
 	<border name="title_border" left="0" right="0" top="1" bottom="1"/>
@@ -43,56 +43,57 @@
 </draw_ops>
 
 <draw_ops name="button-close-focused">
-	<rectangle color="#141313" filled="true" x="0" y="0" width="1" height="height"/>
-	<image filename="../images/close.svg" x="0" y="0" width="width" height="height"/>
+	<rectangle color="#323131" filled="true" x="0" y="0" width="width" height="height"/>
+	<image filename="../images/close.svg" x="5" y="0" width="22" height="height"/>
 </draw_ops>
 <draw_ops name="button-close-unfocused">
-	<rectangle color="#141313" filled="true" x="0" y="0" width="1" height="height"/>
-	<image filename="../images/close-inactive.svg" x="0" y="0" width="width" height="height"/>
+	<rectangle color="#323131" filled="true" x="0" y="0" width="width" height="height"/>
+	<image filename="../images/close-inactive.svg" x="5" y="0" width="22" height="height"/>
 </draw_ops>
 <draw_ops name="button-close-pressed">
-	<rectangle color="#141313" filled="true" x="0" y="0" width="1" height="height"/>
-	<rectangle color="#cc0000" filled="true" x="1" y="0" width="width" height="height"/>
-	<image filename="../images/close.svg" x="0" y="0" width="width" height="height"/>
+	<rectangle color="#cc0000" filled="true" x="0" y="0" width="width" height="height"/>
+	<image filename="../images/close.svg" x="5" y="0" width="22" height="height"/>
 </draw_ops>
 
 <draw_ops name="button-maximize-focused">
-	<rectangle color="#141313" filled="true" x="0" y="0" width="1" height="height"/>
-	<image filename="../images/max.svg" x="0" y="0" width="width" height="height"/>
+	<rectangle color="#323131" filled="true" x="0" y="0" width="width" height="height"/>
+	<image filename="../images/max.svg" x="5" y="0" width="22" height="height"/>
 </draw_ops>
 <draw_ops name="button-maximize-unfocused">
-	<rectangle color="#141313" filled="true" x="0" y="0" width="1" height="height"/>
-	<image filename="../images/max-inactive.svg" x="0" y="0" width="width" height="height"/>
+	<rectangle color="#323131" filled="true" x="0" y="0" width="width" height="height"/>
+	<image filename="../images/max-inactive.svg" x="5" y="0" width="22" height="height"/>
 </draw_ops>
 <draw_ops name="button-maximize-pressed">
-	<rectangle color="#141313" filled="true" x="0" y="0" width="1" height="height"/>
-	<rectangle color="gtk:base[SELECTED]" filled="true" x="1" y="0" width="width" height="height"/>
-	<image filename="../images/max.svg" x="0" y="0" width="width" height="height"/>
+	<rectangle color="gtk:base[SELECTED]" filled="true" x="0" y="0" width="width" height="height"/>
+	<image filename="../images/max.svg" x="5" y="0" width="22" height="height"/>
 </draw_ops>
 
 <draw_ops name="button-unmaximize-focused">
-	<rectangle color="#141313" filled="true" x="0" y="0" width="1" height="height"/>
-	<rectangle color="gtk:base[SELECTED]" filled="true" x="1" y="0" width="width" height="height"/>
-	<image filename="../images/max.svg" x="0" y="0" width="width" height="height"/>
+	<rectangle color="#323131" filled="true" x="0" y="0" width="width" height="height"/>
+	<image filename="../images/restore.svg" x="5" y="0" width="22" height="height"/>
 </draw_ops>
 <draw_ops name="button-unmaximize-unfocused">
-	<rectangle color="#141313" filled="true" x="0" y="0" width="1" height="height"/>
-	<image filename="../images/max-inactive.svg" x="0" y="0" width="width" height="height"/>
+	<rectangle color="#323131" filled="true" x="0" y="0" width="width" height="height"/>
+	<image filename="../images/restore-inactive.svg" x="5" y="0" width="22" height="height"/>
+</draw_ops>
+<draw_ops name="button-unmaximize-pressed">
+	<rectangle color="gtk:base[SELECTED]" filled="true" x="0" y="0" width="width" height="height"/>
+	<image filename="../images/restore.svg" x="5" y="0" width="22" height="height"/>
 </draw_ops>
 
 <draw_ops name="button-minimize-focused">
-	<rectangle color="#141313" filled="true" x="0" y="0" width="1" height="height"/>
-	<image filename="../images/min.svg" x="0" y="0" width="width" height="height"/>
+	<rectangle color="#323131" filled="true" x="0" y="0" width="width" height="height"/>
+	<image filename="../images/min.svg" x="5" y="0" width="22" height="height"/>
 </draw_ops>
 <draw_ops name="button-minimize-unfocused">
-	<rectangle color="#141313" filled="true" x="0" y="0" width="1" height="height"/>
-	<image filename="../images/min-inactive.svg" x="0" y="0" width="width" height="height"/>
+	<rectangle color="#323131" filled="true" x="0" y="0" width="width" height="height"/>
+	<image filename="../images/min-inactive.svg" x="5" y="0" width="22" height="height"/>
 </draw_ops>
 <draw_ops name="button-minimize-pressed">
-	<rectangle color="#141313" filled="true" x="0" y="0" width="1" height="height"/>
-	<rectangle color="gtk:base[SELECTED]" filled="true" x="1" y="0" width="width" height="height"/>
-	<image filename="../images/min.svg" x="0" y="0" width="width" height="height"/>
+	<rectangle color="gtk:base[SELECTED]" filled="true" x="0" y="0" width="width" height="height"/>
+	<image filename="../images/min.svg" x="5" y="0" width="22" height="height"/>
 </draw_ops>
+
 
 <draw_ops name="menu_button_icon">
 	<icon  x="(width-mini_icon_width)/2" y="(height-mini_icon_height)/2+0" width="mini_icon_width" height="mini_icon_height"/>
@@ -165,9 +166,9 @@
   <button function="minimize" state="prelight" draw_ops="button-minimize-focused"/>
   <button function="minimize" state="pressed" draw_ops="button-minimize-pressed"/>
 
-  <button function="maximize" state="normal" draw_ops="button-maximize-focused"/>
-  <button function="maximize" state="prelight" draw_ops="button-maximize-focused"/>
-  <button function="maximize" state="pressed" draw_ops="button-maximize-pressed"/>
+  <button function="maximize" state="normal" draw_ops="button-unmaximize-focused"/>
+  <button function="maximize" state="prelight" draw_ops="button-unmaximize-focused"/>
+  <button function="maximize" state="pressed" draw_ops="button-unmaximize-pressed"/>
 
   <button function="menu" state="normal" draw_ops="button-menu-focused"/>
   <button function="menu" state="prelight" draw_ops="button-menu-focused"/>
@@ -186,9 +187,9 @@
   <button function="minimize" state="prelight" draw_ops="button-minimize-unfocused"/>
   <button function="minimize" state="pressed" draw_ops="button-minimize-unfocused"/>
 
-  <button function="maximize" state="normal" draw_ops="button-maximize-unfocused"/>
-  <button function="maximize" state="prelight" draw_ops="button-maximize-unfocused"/>
-  <button function="maximize" state="pressed" draw_ops="button-maximize-unfocused"/>
+  <button function="maximize" state="normal" draw_ops="button-unmaximize-unfocused"/>
+  <button function="maximize" state="prelight" draw_ops="button-unmaximize-unfocused"/>
+  <button function="maximize" state="pressed" draw_ops="button-unmaximize-unfocused"/>
 
   <button function="menu" state="normal" draw_ops="button-menu-unfocused"/>
   <button function="menu" state="prelight" draw_ops="button-menu-unfocused"/>
