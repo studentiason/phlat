@@ -10,6 +10,6 @@ MetacityTheme=phlat
 IconTheme=phlat
 CursorTheme=DMZ-White
 CursorSize=24
-NotificationTheme=Coco
+NotificationTheme=coco
 BackgroundImage=/usr/share/themes/phlat/@extra/desktop_base/wallpaper/phlat.svg
 ButtonLayout=:minimize,maximize,close
