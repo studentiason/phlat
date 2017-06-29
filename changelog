@@ -1,3 +1,11 @@
+phlat (0.23-1) unstable; urgency=low
+
+  * make the metacity theme look like the xfwm theme
+  * many new icons
+  * many changed icons
+
+-- SSF <https://github.com/sixsixfive> Thu, 29 Jun 2017 21:17:55 +0200
+
 phlat (0.22-1) unstable; urgency=low
 
   * many MATE fixes
