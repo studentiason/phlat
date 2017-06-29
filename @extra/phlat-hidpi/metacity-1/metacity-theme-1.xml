@@ -94,16 +94,17 @@
 	<image filename="../images/min.svg" x="10" y="0" width="44" height="height"/>
 </draw_ops>
 
-
-<draw_ops name="menu_button_icon">
-	<icon  x="(width-mini_icon_width)/2" y="(height-mini_icon_height)/2+0" width="mini_icon_width" height="mini_icon_height"/>
-</draw_ops>
-
 <draw_ops name="button-menu-focused">
-  <include name="menu_button_icon"/>
+	<rectangle color="#323131" filled="true" x="0" y="0" width="width" height="height"/>
+	<image filename="../images/menu.svg" x="5" y="0" width="44" height="height"/>
 </draw_ops>
 <draw_ops name="button-menu-unfocused">
-  <include name="menu_button_icon"/>
+	<rectangle color="#323131" filled="true" x="0" y="0" width="width" height="height"/>
+	<image filename="../images/menu-inactive.svg" x="5" y="0" width="44" height="height"/>
+</draw_ops>
+<draw_ops name="button-menu-pressed">
+	<rectangle color="gtk:base[SELECTED]" filled="true" x="0" y="0" width="width" height="height"/>
+	<image filename="../images/menu.svg" x="5" y="0" width="44" height="height"/>
 </draw_ops>
 
 <frame_style name="normal-focused" geometry="normal">
