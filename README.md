@@ -69,9 +69,9 @@ Some popular colors:
 
 | Color | Description | Color | Description |
 | :---: | :---: | :---: | :---: |
-| ![#0088CC](https://placehold.it/150x80/0088CC/f1f2f2?text=0088CC) | Arch blue | ![#515151](https://placehold.it/150x80/515151/f1f2f2?text=515151) | Grey |
+| ![#0088CC](https://placehold.it/150x80/0088CC/f1f2f2?text=0088CC) | Arch blue | ![#696969](https://placehold.it/150x80/696969/f1f2f2?text=696969) | Grey |
 | ![#D70A53](https://placehold.it/150x80/D70A53/f1f2f2?text=D70A53) | Debian Red | ![#16A085](https://placehold.it/150x80/16A085/f1f2f2?text=16A085) | Manjaro Green |
-| ![#6F6A83](https://placehold.it/150x80/6F6A83/f1f2f2?text=6F6A83) | Devuan Purple | ![#35B9AB](https://placehold.it/150x80/35B9AB/f1f2f2?text=35B9AB) | SuSE Green |
+| ![#6F6A83](https://placehold.it/150x80/6F6A83/f1f2f2?text=6F6A83) | Devuan Purple | ![#84563C](https://placehold.it/150x80/84563C/f1f2f2?text=84563C) | Caramel |
 | ![#54487a](https://placehold.it/150x80/54487a/f1f2f2?text=54487A) | Gentoo Purple | ![#E95420](https://placehold.it/150x80/E95420/f1f2f2?text=E95420) | Ubuntu Orange |
 
 ### Set all themes
