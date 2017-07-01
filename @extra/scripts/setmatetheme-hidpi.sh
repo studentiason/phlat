@@ -30,7 +30,7 @@ if type gsettings >/dev/null 2>&1; then
 	gsettings set org.mate.interface gtk-overlay-scrolling false ||true
 	gsettings set org.mate.interface gtk-theme 'phlat-HiDPI' || true
 	gsettings set org.mate.interface icon-theme 'phlat' || true
-	gsettings set org.mate.NotificationDaemon theme 'Coco' || true
+	gsettings set org.mate.NotificationDaemon theme 'coco' || true
 	gsettings set org.mate.font-rendering dpi 192 || true
 fi
 if type yad >/dev/null 2>&1; then
