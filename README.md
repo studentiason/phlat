@@ -1,13 +1,13 @@
-![Image](preview.gif)
+![Image](.preview.gif)
 
 ### Main Features:
 
-* fully text/SVG based
 * lightweight and fast due its simplicity
 * no blue, red, green (whatever) button suggestions
 * traditional style, made for the use with a mouse
 * fully gtk3-nocsd compatible
 * GTK2/Xfwm/Marco HiDPI theme
+* Simple symbolic icon theme
 
 ### Depends on: 
 

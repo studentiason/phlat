@@ -8,61 +8,51 @@ Directories=symbolic,symbolic-22,symbolic-24,emblems,emblems-24
 
 [symbolic]
 Size=16
-MaxSize=20
 Context=Actions
 Type=Scalable
 
 [symbolic]
 Size=16
-MaxSize=20
 Context=Applications
 Type=Scalable
 
 [symbolic]
 Size=16
-MaxSize=20
 Context=MimeTypes
 Type=Scalable
 
 [symbolic]
 Size=16
-MaxSize=20
 Context=Devices
 Type=Scalable
 
 [symbolic]
 Size=16
-MaxSize=20
 Context=Emotes
 Type=Scalable
 
 [symbolic]
 Size=16
-MaxSize=20
 Context=FileSystems
 Type=Scalable
 
 [symbolic]
 Size=16
-MaxSize=20
 Context=Places
 Type=Scalable
 
 [symbolic]
 Size=16
-MaxSize=20
 Context=Categories
 Type=Scalable
 
 [symbolic]
 Size=16
-MaxSize=20
 Context=Status
 Type=Scalable
 
 [symbolic]
 Size=16
-MaxSize=20
 Context=Stock
 Type=Scalable
 
@@ -118,25 +108,21 @@ Type=Scalable
 
 [symbolic-24]
 Size=24
-MaxSize=256
 Context=Actions
 Type=Scalable
 
 [symbolic-24]
 Size=24
-MaxSize=256
 Context=Applications
 Type=Scalable
 
 [symbolic-24]
 Size=24
-MaxSize=256
 Context=MimeTypes
 Type=Scalable
 
 [symbolic-24]
 Size=24
-MaxSize=256
 Context=Devices
 Type=Scalable
 
@@ -148,31 +134,26 @@ Type=Scalable
 
 [symbolic-24]
 Size=24
-MaxSize=256
 Context=FileSystems
 Type=Scalable
 
 [symbolic-24]
 Size=24
-MaxSize=256
 Context=Places
 Type=Scalable
 
 [symbolic-24]
 Size=24
-MaxSize=256
 Context=Categories
 Type=Scalable
 
 [symbolic-24]
 Size=24
-MaxSize=256
 Context=Status
 Type=Scalable
 
 [symbolic-24]
 Size=24
-MaxSize=256
 Context=Stock
 Type=Scalable
 
