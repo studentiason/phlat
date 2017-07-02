@@ -81,7 +81,9 @@ border-color:transparent;
 background:transparent;}
 
 stackswitcher>button,
-stackswitcher>button:backdrop{
+stackswitcher>button:backdrop,
+.stack-switcher button,
+.stack-switcher button:backdrop{
 font-weight:bold;}
 
 dialog stackswitcher,

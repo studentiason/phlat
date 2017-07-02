@@ -1,5 +1,13 @@
 phlat (0.23-1) unstable; urgency=low
 
+  * many new icons
+  * change the default color from blue to pink ;P
+  * some tiny GTK3 improvements(
+
+-- SSF <https://github.com/sixsixfive> Thu, 29 Jun 2017 21:17:55 +0200
+
+phlat (0.23-1) unstable; urgency=low
+
   * make the metacity theme look like the xfwm theme
   * many new icons
   * many changed icons

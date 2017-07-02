@@ -25,6 +25,9 @@ popover scrolledwindow{
 border-top:1px solid @border_color;
 border-bottom:1px solid @border_color;
 background:@base_color;}
+popover.background modelbutton{
+padding:2px 0px;
+font-weight:bold;}
 popover.background modelbutton:hover{
 background:@selected_base_color;}
 

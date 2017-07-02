@@ -23,3 +23,7 @@ border:none;}
 placessidebar,
 placessidebar:backdrop{
 margin:1px;}
+
+stacksidebar.sidebar:not(.frame)>scrolledwindow:not(.frame)>viewport.frame,
+stacksidebar.sidebar:not(.frame)>scrolledwindow:not(.frame)>viewport.frame:backdrop {
+border:1px solid @border_color;}
