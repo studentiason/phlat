@@ -18,7 +18,7 @@ type find >/dev/null 2>&1||_missingdep=true
 case $_missingdep in
 	true)
 		if type yad >/dev/null 2>&1; then
-			yad --title Error --image=dialog-error --text "\nYou either miss sed, tr, or find!" --button="gtk-ok:0"
+			yad --on-top --center --title Error --image=dialog-error --text "\nYou either miss sed, tr, or find!" --button="gtk-ok:0"
 		else
 			printf "You either miss sed, tr, or find! Aborting!\n"
 		fi
@@ -27,7 +27,7 @@ esac
 #check if we have permissions
 if [ ! -w "$basedir"/@extra ]; then
 		if type yad >/dev/null 2>&1; then
-			yad --title Error --image=dialog-error --text "\nYou don't have write permissions!" --button="gtk-ok:0"
+			yad --on-top --center --title Error --image=dialog-error --text "\nYou don't have write permissions!" --button="gtk-ok:0"
 		else
 			printf "You don't have write permissions!\n"
 		fi
@@ -45,7 +45,7 @@ while [ 1 ];do
 	_has_error=0
 	if [ -z ${newcolor} ]; then 
 		if type yad >/dev/null 2>&1; then
-			newcolor=$(yad --always-print-result --color --init-color=#e54d8e --title="Please select a new #RRGGBB hilight color")
+			newcolor=$(yad --on-top --center --always-print-result --color --init-color=#e54d8e --title="Please select a new #RRGGBB hilight color")
 		else
 			read -p "Please enter your new hilight color in #RRGGBB(The '#' is a must!, #e54d8e is currently set): " newcolor
 		fi
@@ -54,7 +54,7 @@ while [ 1 ];do
 	if [ -z ${newcolor+x} ]; then
 		_has_error=1
 		if type yad >/dev/null 2>&1; then
-			yad --title Error --image=dialog-error --text "\nNo color was was selected!"
+			yad --on-top --center --title Error --image=dialog-error --text "\nNo color was was selected!"
 		else
 			printf "No color was was selected\n"
 		fi
@@ -63,7 +63,7 @@ while [ 1 ];do
 	case "$(echo ${newcolor}|sed 's/#//'|tr '[:upper:]' '[:lower:]')" in
 		424141|ffffff|f1f2f2|656666|323131|2980b9|bdc3c7|cc0000|3366cc|ff6600|669900|5e86d7)
 		if type yad >/dev/null 2>&1; then
-			yad --title Error --image=dialog-error --text "\nSorry the colors: 424141,ffffff,f1f2f2,656666,323131,2980b9,bdc3c7,cc0000,3366cc,ff6600,669900,5e86d7 are not available!" --button="gtk-ok:0"
+			yad --on-top --center --title Error --image=dialog-error --text "\nSorry the colors: 424141,ffffff,f1f2f2,656666,323131,2980b9,bdc3c7,cc0000,3366cc,ff6600,669900,5e86d7 are not available!" --button="gtk-ok:0"
 		else
 			printf "\nSorry the colors: 424141,ffffff,f1f2f2,656666,323131,2980b9,bdc3c7,cc0000,3366cc,ff6600,669900,5e86d7 are not available!\n"
 		fi
@@ -73,7 +73,7 @@ while [ 1 ];do
 	if [ "${#newcolor}" -lt 7 ]; then
 		_has_error=1
 		if type yad >/dev/null 2>&1; then
-			yad --title Error --image=dialog-error --text "\nSorry ${newcolor} is not a valid color!" --button="gtk-ok:0"
+			yad --on-top --center --title Error --image=dialog-error --text "\nSorry ${newcolor} is not a valid color!" --button="gtk-ok:0"
 		else
 			printf "\nSorry ${newcolor} is not a valid color!\n"
 		fi
