@@ -37,10 +37,6 @@ color:@fg_color;}
 .mate-panel-menu-bar menubar:backdrop>menuitem>label{
 font-weight:bold;}
 
-.mate-panel-menu-bar menubar>menuitem:hover>label,
-.mate-panel-menu-bar menubar:backdrop>menuitem:hover>label,
-#clock-applet-button:checked label{
-color:@selected_bg_color;}
 .mate-panel-menu-bar #showdesktop-button{
 background:transparent;}
 .mate-panel-menu-bar wnck-tasklist label{
@@ -69,17 +65,14 @@ color:@selected_fg_color;}
 opacity:0;}
 
 #PanelPlug #clock-applet-button:checked,
-#PanelPlug #clock-applet-button:checked label {
+#PanelPlug #clock-applet-button:checked label,
+.mate-panel-menu-bar menubar>menuitem:hover,
+.mate-panel-menu-bar menubar:backdrop>menuitem:hover {
 color:@selected_fg_color;
 background:@selected_bg_color;}
 
 #PanelApplet{
 padding:0px 2px;}
-
-PanelToplevel.background,
-.mate-panel-menu-bar grid,
-#PanelPlug{
-background:@bg_color;}
 
 #mate-menu>widget>box>widget>*{
 margin:5px;}
@@ -173,3 +166,7 @@ background:@base_color;}
 .caja-side-pane scrolledwindow.frame:backdrop,
 .caja-notebook scrolledwindow.frame:backdrop {
 margin:-1px;}
+
+.atril-window notebook .frame,
+.atril-window notebook .frame:backdrop {
+margin:-2px;}

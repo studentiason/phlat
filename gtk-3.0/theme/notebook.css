@@ -1,4 +1,5 @@
-window notebook{
+window notebook.frame,
+window notebook.frame:backdrop{
 border:1px solid @border_color;}
 window notebook>header{
 background:@base_color;}

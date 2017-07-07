@@ -1,10 +1,19 @@
+phlat (0.26-1) unstable; urgency=low
+
+  * new icons
+  * mate panel settings can now override the color of the panel
+  * better tabs in gtk3 windows
+  * a few usability improvements(contrast fixes)
+
+-- SSF <https://github.com/sixsixfive> Sat, 08 Jul 2017 00:58:15 +0200
+
 phlat (0.25-1) unstable; urgency=low
 
   * many new icons
   * change the default color from blue to pink ;P
   * some tiny GTK3 improvements
 
--- SSF <https://github.com/sixsixfive> Thu, 29 Jun 2017 21:17:55 +0200
+-- SSF <https://github.com/sixsixfive> Thu, 02 Jul 2017 23:15:34 +0200
 
 phlat (0.23-1) unstable; urgency=low
 
