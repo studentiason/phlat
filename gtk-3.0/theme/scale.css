@@ -5,6 +5,10 @@ scale trough,
 scale trough:backdrop{
 border:1px solid @border_color;
 background:@base_color;}
+list scale trough,
+list scale trough:backdrop{
+border:1px solid @border_color;
+background:shade(@base_color,0.86);}
 scale.horizontal trough,
 scale.horizontal trough:backdrop{
 min-height:3px;}

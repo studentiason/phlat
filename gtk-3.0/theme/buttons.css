@@ -21,7 +21,11 @@ border:1px solid @border_color;}
 .view button:not(:checked),
 .view button:not(:checked):backdrop,
 .view button:checked:disabled,
-.view button:checked:disabled:backdrop{
+.view button:checked:disabled:backdrop,
+list button:not(:checked),
+list button:not(:checked):backdrop,
+list button:checked:disabled,
+list button:checked:disabled:backdrop{
 background-color:shade(@base_color,0.76);
 border:1px solid @border_color;}
 button:checked:not(:disabled),
@@ -39,6 +43,7 @@ background-color:@base_color;}
 
 notebook>header>tabs>tab>box>button,
 notebook>header>tabs>tab>box>button:backdrop{
+margin:1px;
 min-height:18px;
 min-width:18px;}
 notebook>header>tabs>tab:checked>box>button,

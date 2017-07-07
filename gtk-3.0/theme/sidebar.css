@@ -26,4 +26,14 @@ margin:1px;}
 
 stacksidebar.sidebar:not(.frame)>scrolledwindow:not(.frame)>viewport.frame,
 stacksidebar.sidebar:not(.frame)>scrolledwindow:not(.frame)>viewport.frame:backdrop {
-border:1px solid @border_color;}
+border:1px solid @border_color;
+font-weight:bold}
+stacksidebar.sidebar:not(.frame)>scrolledwindow:not(.frame)>viewport>list separator,
+stacksidebar.sidebar:not(.frame)>scrolledwindow:not(.frame)>viewport>list separator:backdrop {
+background:@base_color;
+color:transparent;
+border-bottom:1px solid transparent;}
+stacksidebar.sidebar:not(.frame)>scrolledwindow:not(.frame)>viewport>list row:selected,
+stacksidebar.sidebar:not(.frame)>scrolledwindow:not(.frame)>viewport>list row:selected:backdrop {
+background:inherit;
+border-bottom:1px solid @selected_bg_color;}
