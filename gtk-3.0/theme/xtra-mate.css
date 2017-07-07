@@ -167,3 +167,9 @@ color:@selected_text_color;}
 .caja-navigation-window>grid>paned>box>paned>box>notebook.caja-notebook>stack:backdrop,
 .caja-navigation-window>grid>paned>box>paned>box>notebook.caja-notebook>stack{
 background:@base_color;}
+
+.caja-side-pane scrolledwindow.frame,
+.caja-notebook scrolledwindow.frame,
+.caja-side-pane scrolledwindow.frame:backdrop,
+.caja-notebook scrolledwindow.frame:backdrop {
+margin:-1px;}

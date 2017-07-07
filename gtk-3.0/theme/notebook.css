@@ -1,3 +1,49 @@
+window notebook{
+border:1px solid @border_color;}
+window notebook>header{
+background:@base_color;}
+window notebook>header tab{
+min-height:24px;
+font-weight:bold;}
+window notebook>header.top tab:checked,
+window notebook>header.bottom tab:checked{
+background-color:@selected_base_color;}
+window notebook>header.top{
+border-bottom:1px solid @border_color;}
+window notebook>header.bottom{
+border-top:1px solid @border_color;}
+window notebook>header.left{
+border-right:1px solid @border_color;}
+window notebook>header.right{
+border-left:1px solid @border_color;}
+window notebook>header.top tab:dir(ltr),
+window notebook>header.bottom tab:dir(ltr){
+border-right:1px solid @border_color;}
+window notebook>header.top tab:dir(rtl),
+window notebook>header.bottom tab:dir(rtl){
+border-right:1px solid @border_color;}
+window notebook>header.top tab:last-child:dir(ltr),
+window notebook>header.bottom tab:last-child:dir(ltr){
+margin-right:-1px;}
+window notebook>header.top tab:last-child:dir(rtl),
+window notebook>header.bottom tab:last-child:dir(rtl){
+margin-left:-1px;}
+window notebook>header.left tab:checked,
+window notebook>header.right tab:checked{
+border-bottom:1px solid @selected_base_color;}
+window notebook>header.left tab,
+window notebook>header.right tab{
+border-bottom:1px solid transparent;}
+window notebook>header.left tab:last-child:dir(ltr),
+window notebook>header.right tab:last-child:dir(ltr){
+margin-bottom:-1px;}
+
+dialog notebook {
+border-color:transparent;}
+dialog notebook>header.top,
+dialog notebook>header.bottom{
+background:inherit;
+border-bottom-color:transparent;}
 dialog notebook.frame,
 dialog notebook.frame:backdrop{
 border-color:transparent;
@@ -33,43 +79,3 @@ margin-left:-1px;}
 dialog notebook>header.left>tabs>tab:not(:first-child),
 dialog notebook>header.right>tabs>tab:not(:first-child){
 margin-top:-1px;}
-
-notebook:not(dialog){
-border:1px solid @border_color;}
-notebook:not(dialog)>header{
-background:@base_color;}
-notebook:not(dialog)>header tab{
-min-height:24px;
-font-weight:bold;}
-notebook:not(dialog)>header.top tab:checked,
-notebook:not(dialog)>header.bottom tab:checked{
-background-color:@selected_base_color;}
-notebook:not(dialog)>header.top{
-border-bottom:1px solid @border_color;}
-notebook:not(dialog)>header.bottom{
-border-top:1px solid @border_color;}
-notebook:not(dialog)>header.left{
-border-right:1px solid @border_color;}
-notebook:not(dialog)>header.right{
-border-left:1px solid @border_color;}
-notebook:not(dialog)>header.top tab:dir(ltr),
-notebook:not(dialog)>header.bottom tab:dir(ltr){
-border-right:1px solid @border_color;}
-notebook:not(dialog)>header.top tab:dir(rtl),
-notebook:not(dialog)>header.bottom tab:dir(rtl){
-border-right:1px solid @border_color;}
-notebook:not(dialog)>header.top tab:last-child:dir(ltr),
-notebook:not(dialog)>header.bottom tab:last-child:dir(ltr){
-margin-right:-1px;}
-notebook:not(dialog)>header.top tab:last-child:dir(rtl),
-notebook:not(dialog)>header.bottom tab:last-child:dir(rtl){
-margin-left:-1px;}
-notebook:not(dialog)>header.left tab:checked,
-notebook:not(dialog)>header.right tab:checked{
-border-bottom:1px solid @selected_base_color;}
-notebook:not(dialog)>header.left tab,
-notebook:not(dialog)>header.right tab{
-border-bottom:1px solid transparent;}
-notebook:not(dialog)>header.left tab:last-child:dir(ltr),
-notebook:not(dialog)>header.right tab:last-child:dir(ltr){
-margin-bottom:-1px;}

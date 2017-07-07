@@ -1,3 +1,6 @@
+.lightdm-gtk-greeter frame{
+border-color:transparent;}
+
 .lightdm-gtk-greeter #shutdown_dialog,
 .lightdm-gtk-greeter #restart_dialog,
 .lightdm-gtk-greeter #login_window{
