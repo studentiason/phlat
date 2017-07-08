@@ -81,6 +81,7 @@ if [ -d ${_tmpdir}/usr/share/themes/phlat ]; then
 #icon theme
 	mkdir -p ${_tmpdir}/usr/share/icons
 	ln -sf ../themes/phlat/@extra/phlat-icons ${_tmpdir}/usr/share/icons/phlat
+
 #configstuff
 #	mkdir -p ${_tmpdir}/usr/share/applications
 #	ln -sf ../themes/phlat/@extra/scripts/phlat.desktop ${_tmpdir}/usr/share/applications
