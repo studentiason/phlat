@@ -44,11 +44,6 @@ if [ -d ${_tmpdir}/usr/share/themes/phlat ]; then
 	ln -sf ../../themes/phlat/@extra/qt5ct/qss/phlat_QGtkStyle.qss ${_tmpdir}/usr/share/qt5ct/qss
 #HiDPI theme
 	ln -sf phlat/@extra/phlat-hidpi ${_tmpdir}/usr/share/themes/phlat-HiDPI
-#wallpapers
-	mkdir -p ${_tmpdir}/usr/share/backgrounds/patterns
-	for _f in $(find ${_tmpdir}/usr/share/themes/phlat/@extra/backgrounds -type f|sed 's\^.*/\\g'); do
-		ln -s ../../themes/phlat/@extra/backgrounds/$_f ${_tmpdir}/usr/share/backgrounds/patterns/$_f
-	done
 #icon theme
 	mkdir -p ${_tmpdir}/usr/share/icons
 	ln -sf ../themes/phlat/@extra/phlat-icons ${_tmpdir}/usr/share/icons/phlat
@@ -61,6 +56,35 @@ if [ -d ${_tmpdir}/usr/share/themes/phlat ]; then
 #xsession.d was a good idea however it wont work with root apps like synaptic so use /etc/environment instead
 	printf '\n#phlat\nGTK_OVERLAY_SCROLLING=0\n#phlat\nLIBOVERLAY_SCROLLBAR=0\n'>> /etc/environment
 #######Debian-only!
+#wallpapers
+	mkdir -p ${_tmpdir}/usr/share/backgrounds/phlat_patterns
+	for _f in $(find ${_tmpdir}/usr/share/themes/phlat/@extra/backgrounds -type f|sed 's\^.*/\\g'); do
+		ln -s ../../themes/phlat/@extra/backgrounds/$_f ${_tmpdir}/usr/share/backgrounds/phlat_patterns/$_f
+	done
+	mkdir -p ${_tmpdir}/usr/share/backgrounds/mate-background-properties
+	cat <<\EOF > /usr/share/mate-background-properties/phlat_patterns.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+
+EOF
+	for _f in $(find ${_tmpdir}/usr/share/themes/phlat/@extra/backgrounds -type f|sed 's\^.*/\\g'); do
+		cat << EOF2 >> /usr/share/mate-background-properties/phlat_patterns.xml
+	<wallpaper deleted="false">
+		<name>$_f</name>
+		<filename>/usr/share/backgrounds/phlat_patterns/$_f</filename>
+		<shade_type>vertical-gradient</shade_type>
+		<pcolor>#343434</pcolor>
+		<scolor>#444444</scolor>
+		<options>wallpaper</options>
+		<artist>SSF</artist>
+	</wallpaper>
+EOF2
+done
+	cat <<\EOF3 >> /usr/share/mate-background-properties/phlat_patterns.xml
+	
+</wallpapers>
+EOF3
 #chromium scrollbars
 	mkdir -p ${_tmpdir}/etc/chromium.d
 	cat <<\EOF > ${_tmpdir}/etc/chromium.d/phlat
