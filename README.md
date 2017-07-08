@@ -1,13 +1,4 @@
-![Image](.preview.gif)
-
-### Main Features:
-
-* lightweight and fast due its simplicity
-* no blue, red, green (whatever) button suggestions
-* traditional style, made for the use with a mouse
-* fully gtk3-nocsd compatible
-* GTK2/Xfwm/Marco HiDPI theme
-* Simple symbolic icon theme
+Phlat is a simple, fast and daily usable dark theme mainly made for [Xfce](https://xfce.org) or [MATE](https://mate-desktop.org).
 
 ### Depends on: 
 
@@ -30,7 +21,7 @@
 * Onboard theme
 * A simple symbolic icon theme
 * Qt5 theme fixes
-* simple Firefox(@GTK3) stylish fixes (not recommend since XUL has some huge issues with dark themes)
+* and more
 
 ## Install
 

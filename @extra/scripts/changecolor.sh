@@ -45,9 +45,9 @@ while [ 1 ];do
 	_has_error=0
 	if [ -z ${newcolor} ]; then 
 		if type yad >/dev/null 2>&1; then
-			newcolor=$(yad --on-top --center --always-print-result --color --init-color=#e54d8e --title="Please select a new #RRGGBB hilight color")
+			newcolor=$(yad --on-top --center --always-print-result --color --init-color=#a070be --title="Please select a new #RRGGBB hilight color")
 		else
-			read -p "Please enter your new hilight color in #RRGGBB(The '#' is a must!, #e54d8e is currently set): " newcolor
+			read -p "Please enter your new hilight color in #RRGGBB(The '#' is a must!, #a070be is currently set): " newcolor
 		fi
 	fi
 #check if there is a color
@@ -88,7 +88,7 @@ done
 _folders="images gtk-3.0 gtk-2.0 xfwm4 xfdashboard-1.0 balou @extra"
 for _folder in $_folders; do
 	cd $_folder
-	find "$basedir/$_folder" -type f -exec sed -i 's/#e54d8e/'$newcolor'/g' {} \;
+	find "$basedir/$_folder" -type f -exec sed -i 's/#a070be/'$newcolor'/g' {} \;
 	cd $basedir
 done
 printf "\n\ndone\n\n"
