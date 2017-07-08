@@ -32,12 +32,20 @@ fi
 ###link all themes
 if [ -d ${_tmpdir}/usr/share/themes/phlat ]; then
 #plank theme
+	#mkdir -p ${_tmpdir}/usr/share/plank/themes
+	#ln -sf ../../themes/phlat/@extra/plank/phlat ${_tmpdir}/usr/share/plank/themes/phlat
 	mkdir -p ${_tmpdir}/usr/share/plank/themes
-	ln -sf ../../themes/phlat/@extra/plank/phlat ${_tmpdir}/usr/share/plank/themes/phlat
+	for _f in $(find ${_tmpdir}/usr/share/themes/phlat/@extra/plank/ -mindepth 1 -type d|sed 's\^.*/\\g'); do
+		ln -sf ../../themes/phlat/@extra/plank/$_f ${_tmpdir}/usr/share/plank/themes/$_f
+	done
 #onboard
+	#mkdir -p ${_tmpdir}/usr/share/onboard/themes
+	#ln -sf ../../themes/phlat/@extra/onboard/phlat.colors ${_tmpdir}/usr/share/onboard/themes
+	#ln -sf ../../themes/phlat/@extra/onboard/phlat.theme ${_tmpdir}/usr/share/onboard/themes
 	mkdir -p ${_tmpdir}/usr/share/onboard/themes
-	ln -sf ../../themes/phlat/@extra/onboard/phlat.colors ${_tmpdir}/usr/share/onboard/themes
-	ln -sf ../../themes/phlat/@extra/onboard/phlat.theme ${_tmpdir}/usr/share/onboard/themes
+	for _f in $(find ${_tmpdir}/usr/share/themes/phlat/@extra/onboard -type f|sed 's\^.*/\\g'); do
+		ln -sf ../../themes/phlat/@extra/onboard/$_f ${_tmpdir}/usr/share/onboard/themes/$_f
+	done
 #qt5ct
 	mkdir -p ${_tmpdir}/usr/share/qt5ct/colors ${_tmpdir}/usr/share/qt5ct/qss
 	ln -sf ../../themes/phlat/@extra/qt5ct/colors/phlat_QGtkStyle.conf ${_tmpdir}/usr/share/qt5ct/colors
@@ -49,8 +57,8 @@ if [ -d ${_tmpdir}/usr/share/themes/phlat ]; then
 	ln -sf ../themes/phlat/@extra/phlat-icons ${_tmpdir}/usr/share/icons/phlat
 #wallpapers
 	mkdir -p ${_tmpdir}/usr/share/backgrounds/phlat_patterns
-	for _f in $(find ${_tmpdir}/usr/share/themes/phlat/@extra/backgrounds -type f|sed 's\^.*/\\g'); do
-		ln -s ../../themes/phlat/@extra/backgrounds/$_f ${_tmpdir}/usr/share/backgrounds/phlat_patterns/$_f
+	for _f in $(find ${_tmpdir}/usr/share/themes/phlat/@extra/backgrounds/patterns -type f|sed 's\^.*/\\g'); do
+		ln -s ../../themes/phlat/@extra/backgrounds/patterns/$_f ${_tmpdir}/usr/share/backgrounds/phlat_patterns/$_f
 	done
 	mkdir -p ${_tmpdir}/usr/share/mate-background-properties
 	cat <<\EOF > ${_tmpdir}/usr/share/mate-background-properties/phlat_patterns.xml
@@ -59,7 +67,7 @@ if [ -d ${_tmpdir}/usr/share/themes/phlat ]; then
 <wallpapers>
 
 EOF
-	for _f in $(find ${_tmpdir}/usr/share/themes/phlat/@extra/backgrounds -type f|sed 's\^.*/\\g'); do
+	for _f in $(find ${_tmpdir}/usr/share/themes/phlat/@extra/backgrounds/patterns -type f|sed 's\^.*/\\g'); do
 		cat << EOF2 >> ${_tmpdir}/usr/share/mate-background-properties/phlat_patterns.xml
 	<wallpaper deleted="false">
 		<name>$_f</name>
