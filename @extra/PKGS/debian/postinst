@@ -44,6 +44,11 @@ if [ -d ${_tmpdir}/usr/share/themes/phlat ]; then
 	ln -sf ../../themes/phlat/@extra/qt5ct/qss/phlat_QGtkStyle.qss ${_tmpdir}/usr/share/qt5ct/qss
 #HiDPI theme
 	ln -sf phlat/@extra/phlat-hidpi ${_tmpdir}/usr/share/themes/phlat-HiDPI
+#wallpapers
+	#mkdir -p ${_tmpdir}/usr/share/backgrounds
+	#for _f in $(find ../../themes/phlat/@extra/backgrounds -type f|sed 's\^.*/\\g'); do
+		#ln -s $_f ${_tmpdir}/usr/share/backgrounds/
+	#done
 #icon theme
 	mkdir -p ${_tmpdir}/usr/share/icons
 	ln -sf ../themes/phlat/@extra/phlat-icons ${_tmpdir}/usr/share/icons/phlat
