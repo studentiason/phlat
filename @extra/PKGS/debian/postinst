@@ -45,13 +45,9 @@ if [ -d ${_tmpdir}/usr/share/themes/phlat ]; then
 #HiDPI theme
 	ln -sf phlat/@extra/phlat-hidpi ${_tmpdir}/usr/share/themes/phlat-HiDPI
 #wallpapers
-	mkdir -p ${_tmpdir}/usr/share/backgrounds/mate
-	mkdir -p ${_tmpdir}/usr/share/backgrounds/xfce
+	mkdir -p ${_tmpdir}/usr/share/backgrounds/patterns
 	for _f in $(find ${_tmpdir}/usr/share/themes/phlat/@extra/backgrounds -type f|sed 's\^.*/\\g'); do
-		ln -s ../../themes/phlat/@extra/backgrounds/$_f ${_tmpdir}/usr/share/backgrounds/mate/$_f
-	done
-	for _f in $(find ${_tmpdir}/usr/share/themes/phlat/@extra/backgrounds -type f|sed 's\^.*/\\g'); do
-		ln -s ../../themes/phlat/@extra/backgrounds/$_f ${_tmpdir}/usr/share/backgrounds/xfce/$_f
+		ln -s ../../themes/phlat/@extra/backgrounds/$_f ${_tmpdir}/usr/share/backgrounds/patterns/$_f
 	done
 #icon theme
 	mkdir -p ${_tmpdir}/usr/share/icons
