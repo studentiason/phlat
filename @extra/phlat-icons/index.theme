@@ -2,7 +2,7 @@
 Name=phlat
 Comment=The phlat icon theme
 Example=face-wink
-Inherits=hicolor,tango,Tango, Adwaita
+Inherits=hicolor
 
 Directories=symbolic,symbolic-22,symbolic-24,emblems,emblems-24
 
