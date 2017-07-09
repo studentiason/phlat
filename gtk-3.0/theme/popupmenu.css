@@ -11,6 +11,10 @@ menu>menuitem>label:dir(ltr){
 padding-right:10px;}
 menu>menuitem>label:dir(rtl){
 padding-left:10px;}
+menu>menuitem:dir(ltr){
+padding-left:5px;}
+menu>menuitem:dir(rtl){
+padding-right:5px;}
 menu>menuitem:hover,
 menu>menuitem:backdrop:hover{
 background:@selected_bg_color;

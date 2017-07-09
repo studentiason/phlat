@@ -1,12 +1,13 @@
 style"scale"{
-xthickness=0
+xthickness=7
 ythickness=0
 bg[NORMAL]=@selected_bg_color
 bg[PRELIGHT]=@selected_bg_color
 bg[SELECTED]=@selected_bg_color
 bg[ACTIVE]=@base_color
 bg[INSENSITIVE]=@bg_color
-GtkRange::slider-width=10
+GtkRange::slider-width=20
+GtkRange::stepper-size=28
 GtkScale::slider-length=32
 GtkScale::trough-side-details=1
 GtkRange::trough-border=0
@@ -24,4 +25,3 @@ gradient_shades={1.0,1.0,1.0,1.0}
 lightborder_shade=1.0
 shadow_shades={ 0.4, 0.4 }}}
 class"GtkScale"style"scale"
-
