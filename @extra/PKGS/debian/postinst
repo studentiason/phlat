@@ -57,8 +57,12 @@ if [ -d ${_tmpdir}/usr/share/themes/phlat ]; then
 	ln -sf ../themes/phlat/@extra/phlat-icons ${_tmpdir}/usr/share/icons/phlat
 #wallpapers
 	mkdir -p ${_tmpdir}/usr/share/backgrounds/phlat_patterns
+	mkdir -p ${_tmpdir}/usr/share/backgrounds/xfce
 	for _f in $(find ${_tmpdir}/usr/share/themes/phlat/@extra/backgrounds/patterns -type f|sed 's\^.*/\\g'); do
 		ln -s ../../themes/phlat/@extra/backgrounds/patterns/$_f ${_tmpdir}/usr/share/backgrounds/phlat_patterns/$_f
+	done
+	for _f in $(find ${_tmpdir}/usr/share/themes/phlat/@extra/backgrounds/patterns -type f|sed 's\^.*/\\g'); do
+		ln -s ../../themes/phlat/@extra/backgrounds/patterns/$_f ${_tmpdir}/usr/share/backgrounds/xfce/$_f
 	done
 	mkdir -p ${_tmpdir}/usr/share/mate-background-properties
 	cat <<\EOF > ${_tmpdir}/usr/share/mate-background-properties/phlat_patterns.xml
