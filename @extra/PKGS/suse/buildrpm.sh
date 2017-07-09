@@ -68,6 +68,7 @@ if [ -d ${_tmpdir}/usr/share/themes/phlat ]; then
 #plank theme
 	mkdir -p ${_tmpdir}/usr/share/plank/themes
 	ln -sf ../../themes/phlat/@extra/plank/phlat ${_tmpdir}/usr/share/plank/themes/phlat
+	ln -sf ../../themes/phlat/@extra/plank/phlat-full ${_tmpdir}/usr/share/plank/themes/phlat-full
 #onboard
 	mkdir -p ${_tmpdir}/usr/share/onboard/themes
 	ln -sf ../../themes/phlat/@extra/onboard/phlat.colors ${_tmpdir}/usr/share/onboard/themes
