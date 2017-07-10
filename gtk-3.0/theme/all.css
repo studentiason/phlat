@@ -156,6 +156,9 @@ background:shade(@base_color,1.3);}
 frame,
 frame:backdrop{
 border:1px solid @border_color;}
+window>frame,
+window>frame:backdrop{
+border:1px solid transparent;}
 frame>notebook,
 frame>notebook:backdrop,
 frame>paned>notebook,
