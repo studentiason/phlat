@@ -190,7 +190,9 @@ background:@base_color;}
 frame scrolledwindow.frame,
 frame scrolledwindow.frame:backdrop {
 margin:-1px;}
-
+scrolledwindow:not(.frame)>viewport.frame,
+scrolledwindow:not(.frame)>viewport.frame:backdrop {
+border:1px solid @border_color;}
 
 .link label,
 link{
