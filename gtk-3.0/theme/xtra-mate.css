@@ -172,9 +172,16 @@ padding:2px;}
 .caja-notebook scrolledwindow.frame:backdrop {
 margin:-1px;}
 
-.atril-window notebook .frame,
-.atril-window notebook .frame:backdrop {
-margin:-2px;}
+.atril-window notebook .frame:dir(ltr),
+.atril-window notebook .frame:backdrop:dir(ltr) {
+margin:0px;
+margin-left:-1px;
+margin-bottom:-1px;}
+.atril-window notebook .frame:dir(rtl),
+.atril-window notebook .frame:backdrop:dir(rtl) {
+margin:0px;
+margin-right:-1px;
+margin-bottom:-1px;}
 
 .pluma-window>box>paned>paned>notebook {
 border:1px solid @border_color;}
