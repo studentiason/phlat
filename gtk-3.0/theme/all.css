@@ -257,7 +257,7 @@ row:backdrop {
 min-height:24px;}
 
 statusbar{
-margin:-4px 0px;
+margin:0px;
 padding:0px;
 border:0px;}
 
@@ -267,7 +267,7 @@ padding:0px;
 border:0px;}
 
 statusbar frame{
-margin:-4px 0px;
+margin:-1px 0px;
 padding:0px;
 border:0px;}
 

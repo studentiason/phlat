@@ -95,6 +95,9 @@ margin:-1px;}
 
 #MyControlCenter > frame{
 margin:3px;}
+#MyControlCenter > frame scrolledwindow.frame{
+border:1px solid @border_color;
+margin:3px;}
 #slab_section_style2 { 
 padding:6px;
 margin:-6px;
@@ -172,3 +175,11 @@ margin:-1px;}
 .atril-window notebook .frame,
 .atril-window notebook .frame:backdrop {
 margin:-2px;}
+
+.pluma-window>box>paned>paned>notebook {
+border:1px solid @border_color;}
+
+.pluma-window>box>paned>paned>notebook>stack>box>scrolledwindow.frame {
+margin:-1px;}
+
+

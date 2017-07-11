@@ -1,3 +1,6 @@
+window notebbok,
+window notebook:backdrop{
+margin:2px;}
 window notebook.frame,
 window notebook.frame:backdrop{
 border:1px solid @border_color;}
