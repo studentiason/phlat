@@ -173,3 +173,7 @@ border:1px solid @border_color;}
 .caja-navigation-window grid paned box paned box notebook box box scrolledwindow widget widget.entry:backdrop:selected {
 background:@selected_base_color;
 color:@selected_text_color;}
+
+.caja-navigation-window>grid>paned>box>paned>box>notebook.caja-notebook>stack>box>frame,
+.caja-navigation-window>grid>paned>box>paned>box>notebook.caja-notebook>stack>box>frame:backdrop {
+margin:-1px;}
