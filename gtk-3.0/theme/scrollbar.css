@@ -53,9 +53,16 @@ margin:-1px;
 min-width:21px;
 min-height:18px;}
 
-scrolledwindow.frame>scrollbar.vertical{
+scrolledwindow.frame>scrollbar.vertical,
+scrolledwindow.frame>scrollbar.vertical:backdrop{
 margin:-1px -1px -1px -0px;}
-scrolledwindow.frame>scrollbar.vertical:dir(rtl){
+scrolledwindow.frame>scrollbar.vertical:dir(rtl),
+scrolledwindow.frame>scrollbar.vertical:dir(rtl):backdrop{
 margin:-1px 0px -1px -1px;}
-scrolledwindow.frame>scrollbar.horizontal{
+scrolledwindow.frame>scrollbar.horizontal,
+scrolledwindow.frame>scrollbar.horizontal:backdrop{
 margin:-0px -1px -1px -1px;}
+window>stack>scrolledwindow:not(.frame),
+window>stack>scrolledwindow:not(.frame):backdrop{
+margin:1px;
+border:1px solid @border_color;}

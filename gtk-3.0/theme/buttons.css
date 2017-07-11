@@ -91,6 +91,10 @@ stackswitcher>button:backdrop,
 .stack-switcher button:backdrop{
 font-weight:bold;}
 
+.stack-switcher.horizontal button label,
+.stack-switcher.horizontal button label:backdrop{
+margin:0px 10px;}
+
 dialog stackswitcher,
 dialog stackswitcher:backdrop{
 margin:5px;}

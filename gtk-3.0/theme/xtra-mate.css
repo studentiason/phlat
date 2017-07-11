@@ -86,11 +86,6 @@ background-color:rgba(255,255,255,0.5);}
 #mate-menu widget widget widget notebook>stack scrolledwindow>viewport {
 background:@base_color;}
 
-.mate-terminal notebook box box{
-border-top:1px solid @border_color;}
-.mate-terminal notebook scrollbar{
-margin:-1px;}
-
 /*weird other mate apps*/
 
 #MyControlCenter > frame{
@@ -106,6 +101,20 @@ background:@base_color;}
 #slab_section_style2>widget>box>label{ 
 color:@selected_base_color;}
 
+.pluma-window>box>paned>paned>notebook,
+.pluma-window>box>paned>paned>notebook:backdrop{
+margin:2px;
+border:1px solid @border_color;}
+.pluma-window>box>paned>paned>notebook>stack>box>scrolledwindow.frame,
+.pluma-window>box>paned>paned>notebook>stack>box>scrolledwindow.frame:backdrop {
+margin:2px;}
+.pluma-window>box>paned>box>notebook.frame entry,
+.pluma-window>box>paned>box>notebook.frame entry:backdrop,
+.pluma-window>box>paned>box>notebook.frame button,
+.pluma-window>box>paned>box>notebook.frame button:backdrop,
+.pluma-window>box>paned>box>notebook>stack>box>scrolledwindow.frame,
+.pluma-window>box>paned>box>notebook>stack>box>scrolledwindow.frame:backdrop{
+margin:1px;}
 .caja-pathbar button {
 padding:0px;}
 .caja-pathbar button,
@@ -131,10 +140,6 @@ border-bottom:2px solid transparent;}
 border:none;
 border-bottom:2px solid @selected_base_color;}
 
-.caja-navigation-window grid paned box paned box .caja-notebook,
-.caja-navigation-window grid paned box paned box .caja-notebook:backdrop {
-margin:0px 3px 3px 0px;}
-
 .caja-side-pane .frame,
 .caja-side-pane notebook stack,
 .caja-side-pane notebook treeview.view,
@@ -150,6 +155,15 @@ margin:0px 3px 3px 0px;}
 background:@bg_color;
 border-color:transparent;}
 
+.caja-notebook {
+margin:2px;
+border:1px solid @border_color;}
+.caja-side-pane scrolledwindow.frame,
+.caja-notebook scrolledwindow.frame,
+.caja-side-pane scrolledwindow.frame:backdrop,
+.caja-notebook scrolledwindow.frame:backdrop {
+margin:-1px;}
+
 .caja-navigation-window grid paned box paned box notebook box box scrolledwindow widget widget.entry,
 .caja-navigation-window grid paned box paned box notebook box box scrolledwindow widget widget.entry:backdrop {
 background:shade (@base_color,0.9);
@@ -159,34 +173,3 @@ border:1px solid @border_color;}
 .caja-navigation-window grid paned box paned box notebook box box scrolledwindow widget widget.entry:backdrop:selected {
 background:@selected_base_color;
 color:@selected_text_color;}
-
-.caja-navigation-window>grid>paned>box>paned>box>notebook.caja-notebook>stack:backdrop,
-.caja-navigation-window>grid>paned>box>paned>box>notebook.caja-notebook>stack{
-background:@base_color;}
-
-.caja-notebook {
-padding:2px;}
-.caja-side-pane scrolledwindow.frame,
-.caja-notebook scrolledwindow.frame,
-.caja-side-pane scrolledwindow.frame:backdrop,
-.caja-notebook scrolledwindow.frame:backdrop {
-margin:-1px;}
-
-.atril-window notebook .frame:dir(ltr),
-.atril-window notebook .frame:backdrop:dir(ltr) {
-margin:0px;
-margin-left:-1px;
-margin-bottom:-1px;}
-.atril-window notebook .frame:dir(rtl),
-.atril-window notebook .frame:backdrop:dir(rtl) {
-margin:0px;
-margin-right:-1px;
-margin-bottom:-1px;}
-
-.pluma-window>box>paned>paned>notebook {
-border:1px solid @border_color;}
-
-.pluma-window>box>paned>paned>notebook>stack>box>scrolledwindow.frame {
-margin:-1px;}
-
-
