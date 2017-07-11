@@ -193,6 +193,10 @@ margin:-1px;}
 scrolledwindow:not(.frame)>viewport.frame,
 scrolledwindow:not(.frame)>viewport.frame:backdrop {
 border:1px solid @border_color;}
+notebook>stack>box>frame,
+notebook>stack>box>frame:backdrop {
+border-color:transparent;}
+
 
 .link label,
 link{
