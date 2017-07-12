@@ -9,7 +9,8 @@ Phlat is a simple, fast and daily usable dark theme mainly made for [Xfce](https
 ### Recommends: 
 
 * [GTK3-NOCSD](https://github.com/PCMan/gtk3-nocsd)
-* Xfce(Xfwm, Xfce-notify, Xfdashboard, xfce-windowck-plugin)
+* [YAD](https://sourceforge.net/projects/yad-dialog)
+* Xfce or MATE
 * Chrome/Chromium(@GTK3)(any blink based browser will work due the internal styling of html forms)
 
 ### also included: 
