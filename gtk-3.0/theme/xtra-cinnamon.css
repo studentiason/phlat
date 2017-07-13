@@ -1,6 +1,8 @@
-window.nemo-desktop-window *{
+window.nemo-desktop-window *,
+window.nemo-desktop-window *:backdrop{
 background:none;}
-window.nemo-desktop-window *:selected{
+window.nemo-desktop-window *:selected,
+window.nemo-desktop-window *:selected:backdrop{
 color:@selected_text_color;
 background:@selected_base_color;}
 
