@@ -28,8 +28,8 @@ border:1px solid transparent;}
 window.nemo-window toolbar entry,
 window.nemo-window toolbar entry:backdrop{
 margin:-2px;}
-.nemo-window-pane,
-.nemo-window-pane:backdrop {
+.nemo-window-pane:not(window.nemo-desktop-window),
+.nemo-window-pane:not(window.nemo-desktop-window):backdrop {
 margin:2px;
 border:1px solid @border_color;}
 .nemo-window>grid>paned>box.sidebar>scrolledwindow.frame:dir(ltr),
