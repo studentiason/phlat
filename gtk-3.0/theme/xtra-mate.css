@@ -115,6 +115,8 @@ margin:2px;}
 .pluma-window>box>paned>box>notebook>stack>box>scrolledwindow.frame,
 .pluma-window>box>paned>box>notebook>stack>box>scrolledwindow.frame:backdrop{
 margin:1px;}
+
+
 .caja-pathbar button {
 padding:0px;}
 .caja-pathbar button,
@@ -128,7 +130,7 @@ box-shadow:none;}
 .caja-pathbar button:hover,
 .caja-pathbar button.toggle.text-button:hover,
 .caja-pathbar button.toggle.text-button.image-button:hover {
-background:alpha(@hilight,0.2);
+background:none;
 border:none;
 border-bottom:2px solid transparent;}
 .caja-pathbar button:checked,
