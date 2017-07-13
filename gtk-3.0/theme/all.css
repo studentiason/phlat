@@ -278,3 +278,7 @@ border:0px;}
 actionbar,
 actionbar:backdrop{
 margin:3px;}
+
+toolbar.horizontal.primary-toolbar,
+toolbar.horizontal.primary-toolbar:backdrop{
+margin:2px 1px;}
