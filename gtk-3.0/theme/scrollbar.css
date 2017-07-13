@@ -66,3 +66,6 @@ window>stack>scrolledwindow:not(.frame),
 window>stack>scrolledwindow:not(.frame):backdrop{
 margin:1px;
 border:1px solid @border_color;}
+notebook.frame>stack>scrolledwindow.frame,
+notebook.frame>stack>scrolledwindow.frame:backdrop {
+margin:-1px;}

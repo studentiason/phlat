@@ -155,7 +155,8 @@ border-bottom:2px solid @selected_base_color;}
 background:@bg_color;
 border-color:transparent;}
 
-.caja-notebook {
+.caja-notebook,
+.caja-notebook:backdrop {
 margin:2px;
 border:1px solid @border_color;}
 .caja-side-pane scrolledwindow.frame,

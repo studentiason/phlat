@@ -7,7 +7,8 @@ notebook>stack:backdrop{
 background:@bg_color;
 border:1px solid @border_color;
 margin:-1px;}
-notebook>header tab{
+notebook>header tab,
+notebook>header tab:backdrop{
 min-height:24px;
 font-weight:bold;}
 notebook>header.top tab:checked,
