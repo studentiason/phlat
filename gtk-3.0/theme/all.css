@@ -193,20 +193,9 @@ margin:-1px;}
 scrolledwindow:not(.frame)>viewport.frame,
 scrolledwindow:not(.frame)>viewport.frame:backdrop {
 border:1px solid @border_color;}
-notebook>stack>box>frame,
-notebook>stack>box>frame:backdrop {
-border-color:transparent;}
-dialog>.dialog-vbox>frame.view,
-dialog>.dialog-vbox>frame.view:backdrop{
-border:1px solid @border_color}
-window>widget>grid>widget>frame,
-window>widget>grid>widget>frame:backdrop{
-border:1px solid @border_color}
-window>widget>grid>widget>frame>*,
-window>widget>grid>widget>frame>*:backdrop,
-window>widget>grid>widget>frame>box>*,
-window>widget>grid>widget>frame>box>*:backdrop{
-margin:1px;}
+frame.view,
+frame.view:backdrop{
+border:1px solid @border_color;}
 
 .link label,
 link{

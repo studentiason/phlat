@@ -5,7 +5,6 @@ window.nemo-desktop-window *:selected,
 window.nemo-desktop-window *:selected:backdrop{
 color:@selected_text_color;
 background:@selected_base_color;}
-
 .nemo-window-pane *{
 -GtkWidget-window-dragging:false;}
 .nemo-places-sidebar,
@@ -44,3 +43,18 @@ margin-bottom:-1px;}
 .nemo-properties-dialog frame,
 .nemo-properties-dialog frame:backdrop{
 border:0px;}
+.nemo-desktop .rubberband,
+.nemo-desktop  rubberband,
+.nemo-desktop  .rubberband:backdrop,
+.nemo-desktop  rubberband:backdrop{
+border:1px solid @selected_base_color;
+background:alpha(@selected_base_color,0.2);}
+
+.cs-header,
+.cs-header:backdrop {
+margin:-1px;
+background:@border_color;}
+stack scrolledwindow.view.cs-category-view,
+stack scrolledwindow.view.cs-category-view:backdrop {
+border:1px solid @border_color;
+margin:4px;}
