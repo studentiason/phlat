@@ -155,7 +155,7 @@ border-bottom:2px solid @selected_base_color;}
 .caja-side-pane notebook box scrolledwindow:backdrop,
 .caja-side-pane notebook textview text:backdrop{
 background:@bg_color;
-border-color:transparent;}
+border:1px solid transparent;}
 
 .caja-notebook,
 .caja-notebook:backdrop {
@@ -185,3 +185,8 @@ margin:-1px;}
 .caja-navigation-window grid paned box notebook stack scrolledwindow.frame treeview:selected:backdrop{
 color:@selected_text_color;
 background:@selected_base_color;}
+
+.caja-pathbar button.slider-button,
+.caja-pathbar button.slider-button:backdrop{ 
+background:none;
+border:1px solid transparent;}
