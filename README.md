@@ -16,12 +16,14 @@ Phlat is a simple, fast and daily usable dark theme mainly made for [Xfce](https
 ### also included: 
 
 * XfDashboard
+* Balou
+* XfceNotifyd
+* WindowManager themes(Xfwm, Macro(Metacity/Muffin), Openbox, Unity)
+* Plank themes
 * Chrome/Chromium Scrollbars
-* Plank theme
-* Marco/Metacity theme
 * Onboard theme
-* A simple hight contrast icon theme
-* Qt5 theme fixes
+* A simple high contrast icon theme
+* Qt5 qgtkstyle qss fixes
 * and more
 
 ## Install
