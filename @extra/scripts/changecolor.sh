@@ -85,7 +85,7 @@ while [ 1 ];do
 	fi
 done
 #recolor the ui themes
-_folders="images gtk-3.0 gtk-2.0 xfwm4 xfdashboard-1.0 balou @extra"
+_folders="images gtk-3.0 gtk-2.0 xfwm4 xfdashboard-1.0 openbox-3 balou @extra"
 for _folder in $_folders; do
 	cd $_folder
 	find "$basedir/$_folder" -type f -exec sed -i 's/#a070be/'$newcolor'/g' {} \;
