@@ -14,7 +14,7 @@ if [ -d ${_basedir}/phlat ]; then
 fi
 mkdir -p ${_basedir}/phlat/usr/share/themes/phlat
 #creating the spec file:
-cat <<\EOF> ${_basedir}/phlat.spec
+cat <<\EOFALL> ${_basedir}/phlat.spec
 Buildroot: BUILDROOT
 Name: phlat
 Version: 1.0
@@ -24,7 +24,7 @@ License: CC-BY-SA_V4
 Requires: unzip, curl, findutils ,libgtk-3-0 >= 3.20, gtk2-engine-mist, gtk2-engine-murrine, hicolor-icon-theme
 Provides: phlat = %version, gnome-icon-theme
 Obsoletes: phlat <= %version
-Recommends: gtk3-nocsd, qt5ct, qt5-style-plugins, xfwm4, marco, metacity, xfce4-notifyd, xfdashboard, onboard
+Recommends: gtk3-nocsd, qt5ct, qt5-style-plugins, xfwm4, marco, metacity, icewm, openbox, xfce4-notifyd, xfdashboard, onboard
 Group: System/GUI/Xfce
 BuildArch: noarch
 
@@ -65,6 +65,9 @@ if [ -f /tmp/phlat.zip ]; then
 fi
 ###link all themes
 if [ -d ${_tmpdir}/usr/share/themes/phlat ]; then
+#icewm theme
+	mkdir -p ${_tmpdir}/usr/share/icewm/themes
+	ln -sf ../../themes/phlat/@extra/icewm/phlat ${_tmpdir}/usr/share/icewm/themes/phlat
 #plank theme
 	mkdir -p ${_tmpdir}/usr/share/plank/themes
 	ln -sf ../../themes/phlat/@extra/plank/phlat ${_tmpdir}/usr/share/plank/themes/phlat
@@ -82,6 +85,42 @@ if [ -d ${_tmpdir}/usr/share/themes/phlat ]; then
 #icon theme
 	mkdir -p ${_tmpdir}/usr/share/icons
 	ln -sf ../themes/phlat/@extra/phlat-icons ${_tmpdir}/usr/share/icons/phlat
+#wallpapers
+	mkdir -p ${_tmpdir}/usr/share/backgrounds/phlat_patterns
+	mkdir -p ${_tmpdir}/usr/share/backgrounds/xfce
+	mkdir -p ${_tmpdir}/usr/share/mate-background-properties
+	mkdir -p ${_tmpdir}/usr/share/gnome-background-properties
+	for _f in $(find ${_tmpdir}/usr/share/themes/phlat/@extra/backgrounds/patterns -type f|sed 's\^.*/\\g'); do
+		ln -s ../../themes/phlat/@extra/backgrounds/patterns/$_f ${_tmpdir}/usr/share/backgrounds/phlat_patterns/$_f
+	done
+	for _f in $(find ${_tmpdir}/usr/share/themes/phlat/@extra/backgrounds/patterns -type f|sed 's\^.*/\\g'); do
+		ln -s ../../themes/phlat/@extra/backgrounds/patterns/$_f ${_tmpdir}/usr/share/backgrounds/xfce/$_f
+	done
+	cat <<\EOF > ${_tmpdir}/usr/share/mate-background-properties/phlat_patterns.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "mate-wp-list.dtd">
+<wallpapers>
+
+EOF
+	for _f in $(find ${_tmpdir}/usr/share/themes/phlat/@extra/backgrounds/patterns -type f|sed 's\^.*/\\g'); do
+		cat << EOF2 >> ${_tmpdir}/usr/share/mate-background-properties/phlat_patterns.xml
+	<wallpaper deleted="false">
+		<name>$_f</name>
+		<filename>/usr/share/backgrounds/phlat_patterns/$_f</filename>
+		<shade_type>vertical-gradient</shade_type>
+		<pcolor>#343434</pcolor>
+		<scolor>#444444</scolor>
+		<options>wallpaper</options>
+		<artist>sixsixfive</artist>
+	</wallpaper>
+EOF2
+done
+	cat <<\EOF3 >> ${_tmpdir}/usr/share/mate-background-properties/phlat_patterns.xml
+	
+</wallpapers>
+EOF3
+
+ln -s ../mate-background-properties/phlat_patterns.xml ${_tmpdir}/usr/share/gnome-background-properties/phlat_patterns.xml
 
 #configstuff
 #	mkdir -p ${_tmpdir}/usr/share/applications
@@ -119,7 +158,7 @@ sed -i '/^#phlat$/,+1 d' /etc/environment
 %files
 %defattr(-,root,root,-)
 %dir /usr/share/themes/phlat
-EOF
+EOFALL
 
 rpmbuild -bb --buildroot=${_basedir}/phlat ${_basedir}/phlat.spec
 if [ -f ${_basedir}/../noarch/phlat*.rpm ]; then
