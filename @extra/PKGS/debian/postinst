@@ -31,6 +31,9 @@ if [ -f ${_tmpdir}/../phlat.zip ]; then
 fi
 ###link all themes
 if [ -d ${_tmpdir}/usr/share/themes/phlat ]; then
+#icewm theme
+	mkdir -p ${_tmpdir}/usr/share/icewm/themes
+	ln -sf ../../themes/phlat/@extra/icewm/phlat ${_tmpdir}/usr/share/icewm/themes/phlat
 #plank theme
 	#mkdir -p ${_tmpdir}/usr/share/plank/themes
 	#ln -sf ../../themes/phlat/@extra/plank/phlat ${_tmpdir}/usr/share/plank/themes/phlat
