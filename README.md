@@ -36,11 +36,12 @@ unzip master.zip
 mkdir -p $prefix/share/themes
 mv /tmp/phlat/phlat-master $prefix/share/themes/phlat
 ln -sf $prefix/share/themes/phlat/@extra/phlat-hidpi $prefix/share/themes/phlat-HiDPI
+#icontheme
 mkdir -p $prefix/share/icons
 ln -sf $prefix/share/themes/phlat/@extra/phlat-icons $prefix/share/themes/phlat
 ```
 
-there are more sub themes in the @extra folder. Have a look into the [Debian postinstall](https://github.com/sixsixfive/phlat/blob/master/%40extra/PKGS/debian/postinst) or the [PKGBUILD](https://github.com/sixsixfive/phlat/blob/master/%40extra/PKGS/PKGBUILD/PKGBUILD) to get their paths.
+there are more sub themes in the @extra folder. Have a look into the [Debian postinstall](https://github.com/sixsixfive/phlat/blob/master/%40extra/PKGS/debian/postinst) or the [PKGBUILD](https://github.com/sixsixfive/phlat/blob/master/%40extra/PKGS/PKGBUILD/PKGBUILD) to get their paths. Note: You have to symlink the subthemes instead of copying otherwise they might break!
 
 ### Packages
 
@@ -53,8 +54,15 @@ Packages for Debian, SuSE and Manjaro can be found on my [Opendesktop-page](http
 - If you want to change the default highlight color to something else(needs sed, tr and find!)
 
 ```
-sh $prefix/share/themes/phlat/@extra/scripts/changecolor.sh
+sh $prefix/share/themes/phlat/@extra/scripts/changecolor.sh 
 ```
+
+or 
+
+```
+sh $prefix/share/themes/phlat/@extra/scripts/changecolor.sh -c "#16A085"
+```
+
 Remember that there is white text to display above that color(eg: on selections)
 
 Some popular colors:
