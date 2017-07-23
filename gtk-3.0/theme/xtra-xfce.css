@@ -4,6 +4,7 @@ background:shade(@bg_color,0.9);}
 
 #ParoleScale trough,
 #ParoleScale trough:backdrop{
+-GtkWidget-window-dragging:false;
 min-height:24px;
 border:1px solid @border_color;
 background:@base_color;}
@@ -18,6 +19,7 @@ box-shadow:none;}
 
 #XfceNotifyWindow,
 #XfceNotifyWindow:backdrop{
+-GtkWidget-window-dragging:false;
 border:1px solid shade(@bg_color,0.4);
 background:shade(@bg_color,0.6);
 border-radius:1px;}
@@ -39,6 +41,7 @@ margin-top:-1px;
 border-top:1px solid @border_color;}
 
 #XfcePanelWindowWrapper{
+-GtkWidget-window-dragging:false;
 border-color:transparent;
 color:@fg_color;
 background:@bg_color;}
@@ -100,6 +103,7 @@ color:@selected_fg_color;}
 
 XfdesktopIconView.view,
 XfdesktopIconView.view:backdrop{
+-GtkWidget-window-dragging:false;
 border-color:transparent;
 font-weight:bold;
 text-shadow: 1px 1px 2px#000000;

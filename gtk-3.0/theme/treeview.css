@@ -1,5 +1,6 @@
 treeview,
 treeview:backdrop{
+-GtkWidget-window-dragging:false;
 -GtkTreeView-horizontal-separator: 4;
 -GtkTreeView-grid-line-width: 1;
 -GtkTreeView-grid-line-pattern: "\001\001";
