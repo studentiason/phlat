@@ -53,7 +53,7 @@ ColorActiveTaskBarAppText="#f1f2f2"
 ColorMinimizedTaskBarAppText="#656666"
 
 DesktopBackgroundColor="#323131"
-DesktopBackgroundImage='wp2.xpm'
+DesktopBackgroundImage='wp.xpm'
 
 ColorToolTip="#323131"
 ColorToolTipText="#f1f2f2"
