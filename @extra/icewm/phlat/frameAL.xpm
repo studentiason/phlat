@@ -1,1 +1,10 @@
-../../../xfwm4/left-active.xpm
+/* XPM */
+static char * frameAL_xpm[] = {
+"1 5 2 1",
+" 	c None",
+".	c #141313",
+".",
+".",
+".",
+".",
+"."};
