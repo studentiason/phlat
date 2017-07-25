@@ -29,8 +29,9 @@ Phlat is a simple, fast and daily usable dark theme mainly made for [Xfce](https
 For example to install it for all users:
 
 ```
-#base themes: GTK, GTK2, GTK3, Xfce/Mate, Openbox
+#set your prefix usually /usr or /usr/local, if unsure try: (getconf PATH | sed -e 's/\/bin//g' -e 's/://g') 
 prefix=/usr/local
+#base themes: GTK, GTK2, GTK3, Xfce, MATE, Openbox
 mkdir /tmp/phlat && cd /tmp/phlat
 wget https://github.com/sixsixfive/phlat/archive/master.zip
 unzip master.zip
@@ -78,14 +79,12 @@ Packages for Debian, SuSE and Manjaro can be found on my [Opendesktop-page](http
 - If you want to change the default highlight color to something else(needs sed, tr and find!)
 
 ```
-prefix=/usr/local
 sh $prefix/share/themes/phlat/@extra/scripts/changecolor.sh 
 ```
 
 or 
 
 ```
-prefix=/usr/local
 sh $prefix/share/themes/phlat/@extra/scripts/changecolor.sh -c "#16A085"
 ```
 
