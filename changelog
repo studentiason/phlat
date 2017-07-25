@@ -1,3 +1,14 @@
+phlat (0.229-1) unstable; urgency=low
+
+  * more icons
+  * more support for old icons apps(eg old gtk stock)
+  * 32px icons fixed
+  * some GTK3 fixes
+  * IceWM theme
+  * added the wallpaper paths to the pkgbuild and the rpm
+
+-- SSF <https://github.com/sixsixfive> Tue, 25 Jul 2017 18:36:22 +0200
+
 phlat (0.28-1) unstable; urgency=low
 
   * more icons
