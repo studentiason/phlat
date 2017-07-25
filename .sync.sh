@@ -15,7 +15,7 @@ sh @extra/qt5ct/qss/maketheme.sh
 #done
 #cd $basedir/@extra/phlat-icons
 #add a padding for bigger icons!
-##22px
+##22px fake
 if [ -d $basedir/@extra/phlat-icons/symbolic-22 ]; then
 	rm -rfv $basedir/@extra/phlat-icons/symbolic-22
 fi
@@ -25,7 +25,7 @@ for f in $(find . -type f -name "*.svg");do
 	sed -i 's/viewBox="0 0 16 16"/viewBox="-3 -3 22 22"/' $f
 done
 cd $basedir
-##24px
+##24px fake
 if [ -d $basedir/@extra/phlat-icons/symbolic-24 ]; then
 	rm -rfv $basedir/@extra/phlat-icons/symbolic-24
 fi
@@ -33,6 +33,17 @@ cp -R $basedir/@extra/phlat-icons/symbolic $basedir/@extra/phlat-icons/symbolic-
 cd $basedir/@extra/phlat-icons/symbolic-24
 for f in $(find . -type f -name "*.svg");do 
 	sed -i 's/viewBox="0 0 16 16"/viewBox="-4 -4 24 24"/' $f
+done
+cd $basedir
+cd $basedir
+##32px fake
+if [ -d $basedir/@extra/phlat-icons/symbolic-32 ]; then
+	rm -rfv $basedir/@extra/phlat-icons/symbolic-32
+fi
+cp -R $basedir/@extra/phlat-icons/symbolic $basedir/@extra/phlat-icons/symbolic-32
+cd $basedir/@extra/phlat-icons/symbolic-32
+for f in $(find . -type f -name "*.svg");do 
+	sed -i 's/viewBox="0 0 16 16"/viewBox="0 0 16 16" width="32" height="32"/' $f
 done
 cd $basedir
 #emblems
