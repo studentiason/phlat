@@ -1,4 +1,4 @@
-phlat (0.229-1) unstable; urgency=low
+phlat (0.29-1) unstable; urgency=low
 
   * more icons
   * more support for old icons apps(eg old gtk stock)
