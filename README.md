@@ -26,22 +26,46 @@ Phlat is a simple, fast and daily usable dark theme mainly made for [Xfce](https
 
 ## Install
 
-For example to install it as user:
+For example to install it for all users:
 
 ```
-prefix=$HOME/.local
+#base themes: GTK, GTK2, GTK3, Xfce/Mate, Openbox
+prefix=/usr/local
 mkdir /tmp/phlat && cd /tmp/phlat
 wget https://github.com/sixsixfive/phlat/archive/master.zip
 unzip master.zip
 mkdir -p $prefix/share/themes
 mv /tmp/phlat/phlat-master $prefix/share/themes/phlat
-ln -sf $prefix/share/themes/phlat/@extra/phlat-hidpi $prefix/share/themes/phlat-HiDPI
+ln -s $prefix/share/themes/phlat/@extra/phlat-hidpi $prefix/share/themes/phlat-HiDPI
 #icontheme
 mkdir -p $prefix/share/icons
-ln -sf $prefix/share/themes/phlat/@extra/phlat-icons $prefix/share/themes/phlat
+ln -s $prefix/share/themes/phlat/@extra/phlat-icons $prefix/share/themes/phlat
+#IceWM
+mkdir -p $prefix/icewm/themes
+ln -s $prefix/share/themes/phlat/@extra/icewm/phlat $prefix/share/icewm/themes/phlat
+#OnBoard
+mkdir -p $prefix/onboard/themes
+ln -s $prefix/share/themes/phlat/@extra/onboard/phlat.colors $prefix/share/onboard/themes/phlat.colors
+ln -s $prefix/share/themes/phlat/@extra/onboard/phlat.theme $prefix/share/onboard/themes/phlat.theme
+#plank theme
+mkdir -p $prefix/usr/share/plank/themes
+ln -s $prefix/share/themes/phlat/@extra/plank/phlat $prefix/share/plank/themes/phlat
+ln -s $prefix/share/themes/phlat/@extra/plank/phlat-full $prefix/share/plank/themes/phlat-full
+#Qt5ct
+mkdir -p $prefix/usr/share/qt5ct/qss
+mkdir -p $prefix/usr/share/qt5ct/colors
+ln -s $prefix/share/themes/phlat/@extra/qt5ct/colors/phlat_QGtkStyle.conf $prefix/usr/share/qt5ct/colors/phlat_QGtkStyle.conf
+ln -s $prefix/share/themes/phlat/@extra/qt5ct/qss/phlat_QGtkStyle.qss $prefix/usr/share/qt5ct/qss/phlat_QGtkStyle.qss
+```
+Chrome/Chromium theme:
+
+just open chrome/chromium go to chrome://extensions/ enable developer mode and load the unpacked extension from:
+
+```
+$prefix/share/themes/phlat/@extra/Chromium_unpackedextension
 ```
 
-there are more sub themes in the @extra folder. Have a look into the [Debian postinstall](https://github.com/sixsixfive/phlat/blob/master/%40extra/PKGS/debian/postinst) or the [PKGBUILD](https://github.com/sixsixfive/phlat/blob/master/%40extra/PKGS/PKGBUILD/PKGBUILD) to get their paths. Note: You have to symlink the subthemes instead of copying otherwise they might break!
+Note: You have to symlink the subthemes instead of copying otherwise they might break!
 
 ### Packages
 
@@ -54,12 +78,14 @@ Packages for Debian, SuSE and Manjaro can be found on my [Opendesktop-page](http
 - If you want to change the default highlight color to something else(needs sed, tr and find!)
 
 ```
+prefix=/usr/local
 sh $prefix/share/themes/phlat/@extra/scripts/changecolor.sh 
 ```
 
 or 
 
 ```
+prefix=/usr/local
 sh $prefix/share/themes/phlat/@extra/scripts/changecolor.sh -c "#16A085"
 ```
 
