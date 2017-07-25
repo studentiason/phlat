@@ -1,0 +1,26 @@
+style "font" { 
+fontset="-adobe-helvetica-medium-r-normal-*-11-*-*-*-p-*-iso8859-1"} 
+widget_class "*" style "font"
+
+style"gtkwidget"{
+fg[NORMAL]="#f1f2f2"
+fg[PRELIGHT]="#f1f2f2"
+fg[SELECTED]="#f1f2f2"
+fg[ACTIVE]="#f1f2f2"
+fg[INSENSITIVE]="#656666"
+bg[NORMAL]="#424141"
+bg[PRELIGHT]="#a070be"
+bg[SELECTED]="#a070be"
+bg[ACTIVE]="#424141"
+bg[INSENSITIVE]="#424141"
+base[NORMAL]="#323131"
+base[PRELIGHT]="#a070be"
+base[SELECTED]="#a070be"
+base[ACTIVE]="#323131"
+base[INSENSITIVE]="#323131"
+text[NORMAL]="#f1f2f2"
+text[PRELIGHT]="#f1f2f2"
+text[SELECTED]="#f1f2f2"
+text[ACTIVE]="#f1f2f2"
+text[INSENSITIVE]="#656666"}
+class"GtkWidget"style"gtkwidget"
