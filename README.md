@@ -29,30 +29,32 @@ Phlat is a simple, fast and daily usable dark theme mainly made for [Xfce](https
 For example to install it for all users:
 
 ```
-#set your prefix usually /usr or /usr/local, if unsure try: (getconf PATH | sed -e 's/\/bin//g;s/://g') 
+## set your prefix usually /usr or /usr/local, 
+## if unsure try: (getconf PATH|sed -e 's/\/bin//g;s/://g') 
 prefix=/usr/local
-#base themes: GTK, GTK2, GTK3, Xfce, MATE, Openbox
+## Base themes: GTK, GTK2, GTK3, Xfce, MATE, Openbox
 mkdir /tmp/phlat && cd /tmp/phlat
 wget https://github.com/sixsixfive/phlat/archive/master.zip
 unzip master.zip
 mkdir -p $prefix/share/themes
 mv /tmp/phlat/phlat-master $prefix/share/themes/phlat
+## HiDPI Base
 ln -s $prefix/share/themes/phlat/@extra/phlat-hidpi $prefix/share/themes/phlat-HiDPI
-#icontheme
+## Icon theme
 mkdir -p $prefix/share/icons
 ln -s $prefix/share/themes/phlat/@extra/phlat-icons $prefix/share/themes/phlat
-#IceWM
+## IceWM
 mkdir -p $prefix/icewm/themes
 ln -s $prefix/share/themes/phlat/@extra/icewm/phlat $prefix/share/icewm/themes/phlat
-#OnBoard
+## OnBoard
 mkdir -p $prefix/onboard/themes
 ln -s $prefix/share/themes/phlat/@extra/onboard/phlat.colors $prefix/share/onboard/themes/phlat.colors
 ln -s $prefix/share/themes/phlat/@extra/onboard/phlat.theme $prefix/share/onboard/themes/phlat.theme
-#plank theme
+## Plank theme
 mkdir -p $prefix/usr/share/plank/themes
 ln -s $prefix/share/themes/phlat/@extra/plank/phlat $prefix/share/plank/themes/phlat
 ln -s $prefix/share/themes/phlat/@extra/plank/phlat-full $prefix/share/plank/themes/phlat-full
-#Qt5ct
+## Qt5ct
 mkdir -p $prefix/usr/share/qt5ct/qss
 mkdir -p $prefix/usr/share/qt5ct/colors
 ln -s $prefix/share/themes/phlat/@extra/qt5ct/colors/phlat_QGtkStyle.conf $prefix/usr/share/qt5ct/colors/phlat_QGtkStyle.conf
