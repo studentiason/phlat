@@ -2,7 +2,7 @@
 Name=phlat
 Comment=Simple HighContrast theme
 Example=face-wink
-Inherits=hicolor,breeze-dark
+Inherits=hicolor
 
 Directories=symbolic,symbolic-22,symbolic-24,symbolic-32,emblems,emblems-24
 
