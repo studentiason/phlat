@@ -29,7 +29,7 @@ Phlat is a simple, fast and daily usable dark theme mainly made for [Xfce](https
 For example to install it for all users:
 
 ```
-#set your prefix usually /usr or /usr/local, if unsure try: (getconf PATH | sed -e 's/\/bin//g' -e 's/://g') 
+#set your prefix usually /usr or /usr/local, if unsure try: (getconf PATH | sed -e 's/\/bin//g;s/://g') 
 prefix=/usr/local
 #base themes: GTK, GTK2, GTK3, Xfce, MATE, Openbox
 mkdir /tmp/phlat && cd /tmp/phlat
