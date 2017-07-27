@@ -1,6 +1,10 @@
 style "font" { 
-fontset="-adobe-helvetica-medium-r-normal-*-11-*-*-*-p-*-iso8859-1"} 
+fontset="-misc-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-1"} 
 widget_class "*" style "font"
+
+style "fontbold" { 
+fontset="-misc-fixed-bold-r-normal--0-0-75-75-c-0-iso8859-1"} 
+widget_class "*GtkMenu*" style "fontbold"
 
 style"gtkwidget"{
 fg[NORMAL]="#f1f2f2"
