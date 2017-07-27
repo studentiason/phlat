@@ -25,6 +25,7 @@ optdepends=('qt5ct'
 	'parole'
 	'plank'
 	'onboard'
+	'audacious'
 	'lightdm-gtk-greeter-settings')
 install="install"
 provides=("${pkgname}=$pkgver")
@@ -68,6 +69,9 @@ package() {
 #icon theme
 	mkdir -p ${_tmpdir}/usr/share/icons
 	ln -sf ../themes/phlat/@extra/phlat-icons ${_tmpdir}/usr/share/icons/phlat
+#WinAMP theme(audacious example)
+	mkdir -p ${_tmpdir}/usr/share/audacious/Skins
+	ln -sf ../../themes/phlat/@extra/WinAMP/phlat ${_tmpdir}/usr/share/audacious/Skins/phlat
 #wallpapers
 	mkdir -p ${_tmpdir}/usr/share/backgrounds/phlat_patterns
 	mkdir -p ${_tmpdir}/usr/share/backgrounds/xfce

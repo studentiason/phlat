@@ -24,7 +24,7 @@ License: CC-BY-SA_V4
 Requires: unzip, curl, findutils ,libgtk-3-0 >= 3.20, gtk2-engine-mist, gtk2-engine-murrine, hicolor-icon-theme
 Provides: phlat = %version, gnome-icon-theme
 Obsoletes: phlat <= %version
-Recommends: gtk3-nocsd, qt5ct, qt5-style-plugins, xfwm4, marco, metacity, icewm, openbox, xfce4-notifyd, xfdashboard, onboard
+Recommends: gtk3-nocsd, qt5ct, qt5-style-plugins, xfwm4, marco, metacity, icewm, openbox, xfce4-notifyd, xfdashboard, onboard, audacious
 Group: System/GUI/Xfce
 BuildArch: noarch
 
@@ -85,6 +85,9 @@ if [ -d ${_tmpdir}/usr/share/themes/phlat ]; then
 #icon theme
 	mkdir -p ${_tmpdir}/usr/share/icons
 	ln -sf ../themes/phlat/@extra/phlat-icons ${_tmpdir}/usr/share/icons/phlat
+#WinAMP theme(audacious example)
+	mkdir -p ${_tmpdir}/usr/share/audacious/Skins
+	ln -sf ../../themes/phlat/@extra/WinAMP/phlat ${_tmpdir}/usr/share/audacious/Skins/phlat
 #wallpapers
 	mkdir -p ${_tmpdir}/usr/share/backgrounds/phlat_patterns
 	mkdir -p ${_tmpdir}/usr/share/backgrounds/xfce
