@@ -22,6 +22,7 @@ Phlat is a simple, fast and daily usable dark theme mainly made for [Xfce](https
 * Onboard theme
 * A simple high contrast icon theme
 * Qt5ct qgtkstyle qss fixes
+* WinAMP 2.9x theme
 * and more
 
 ## Install
