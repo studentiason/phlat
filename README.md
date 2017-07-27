@@ -59,6 +59,9 @@ mkdir -p $prefix/usr/share/qt5ct/qss
 mkdir -p $prefix/usr/share/qt5ct/colors
 ln -s $prefix/share/themes/phlat/@extra/qt5ct/colors/phlat_QGtkStyle.conf $prefix/usr/share/qt5ct/colors/phlat_QGtkStyle.conf
 ln -s $prefix/share/themes/phlat/@extra/qt5ct/qss/phlat_QGtkStyle.qss $prefix/usr/share/qt5ct/qss/phlat_QGtkStyle.qss
+## WinAMP theme(audacious example)
+mkdir -p  $prefix/usr/share/audacious/Skins
+ln -sf $prefix/share/themes/phlat/@extra/WinAMP/phlat $prefix/share/audacious/Skins/phlat
 ```
 Chrome/Chromium theme:
 
