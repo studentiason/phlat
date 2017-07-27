@@ -55,7 +55,7 @@ ln -s $prefix/share/themes/phlat/@extra/onboard/phlat.theme $prefix/share/onboar
 mkdir -p $prefix/usr/share/plank/themes
 ln -s $prefix/share/themes/phlat/@extra/plank/phlat $prefix/share/plank/themes/phlat
 ln -s $prefix/share/themes/phlat/@extra/plank/phlat-full $prefix/share/plank/themes/phlat-full
-## Qt5ct
+## Qt5ct (if you use a different prefix than /usr you need to edit the image paths in phlat_QGtkStyle.qss)
 mkdir -p $prefix/usr/share/qt5ct/qss
 mkdir -p $prefix/usr/share/qt5ct/colors
 ln -s $prefix/share/themes/phlat/@extra/qt5ct/colors/phlat_QGtkStyle.conf $prefix/usr/share/qt5ct/colors/phlat_QGtkStyle.conf
