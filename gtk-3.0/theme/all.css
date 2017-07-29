@@ -42,10 +42,13 @@ separator,
 separator:backdrop{
 min-height:1px;
 min-width:1px;
+border:none;
+color:transparent;
 background-repeat:repeat-x;
 background-clip: border-box;
 background-position: center;
-background-image:image(@border_color);}
+background-image:image(@border_color);
+background-size:1px 1px;}
 separator.vertical,
 separator.vertical:backdrop{
 background-repeat:repeat-y;}
