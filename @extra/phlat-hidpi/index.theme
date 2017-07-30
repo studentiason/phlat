@@ -11,5 +11,4 @@ IconTheme=phlat
 CursorTheme=DMZ-White
 CursorSize=48
 NotificationTheme=coco
-BackgroundImage=/usr/share/themes/phlat/@extra/backgrounds/patterns/phlat_Phlat-lines.svg
-ButtonLayout=:minimize,maximize,close
+

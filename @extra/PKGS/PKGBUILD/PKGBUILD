@@ -107,7 +107,5 @@ done
 </wallpapers>
 EOF3
 
-	ln -s ../mate-background-properties/phlat_patterns.xml ${_tmpdir}/usr/share/gnome-background-properties/phlat_patterns.xml
-
 	chmod -R 755 ${_tmpdir}
 }

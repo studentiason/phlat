@@ -123,8 +123,6 @@ done
 </wallpapers>
 EOF3
 
-ln -s ../mate-background-properties/phlat_patterns.xml ${_tmpdir}/usr/share/gnome-background-properties/phlat_patterns.xml
-
 #configstuff
 #	mkdir -p ${_tmpdir}/usr/share/applications
 #	ln -sf ../themes/phlat/@extra/scripts/phlat.desktop ${_tmpdir}/usr/share/applications

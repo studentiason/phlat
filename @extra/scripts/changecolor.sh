@@ -92,5 +92,16 @@ for _folder in $_folders; do
 	find "$basedir/$_folder" -type f -exec sed -i 's/#A070BE/'$newcolor'/g' {} \;
 	cd $basedir
 done
-printf "\n\ndone\n\n"
+cat <<\EOF
+
+
+d8888b.  .d88b.  d8b   db d88888b db 
+88  `8D .8P  Y8. 888o  88 88'     88 
+88   88 88    88 88V8o 88 88ooooo YP 
+88   88 88    88 88 V8o88 88~~~~~    
+88  .8D `8b  d8' 88  V888 88.     db 
+Y8888D'  `Y88P'  VP   V8P Y88888P YP 
+
+
+EOF
 
