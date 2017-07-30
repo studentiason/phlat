@@ -73,3 +73,6 @@ border:1px solid @border_color;}
 notebook.frame>stack>scrolledwindow.frame,
 notebook.frame>stack>scrolledwindow.frame:backdrop {
 margin:-1px;}
+window>box>scrolledwindow,
+window>box>scrolledwindow:backdrop{
+margin:1px;}
