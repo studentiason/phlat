@@ -33,36 +33,46 @@ For example to install it for all users:
 ## set your prefix usually /usr or /usr/local, 
 ## if unsure try: (getconf PATH|sed -e 's/\/bin//g;s/://g') 
 prefix=/usr/local
+
 ## Base themes: GTK, GTK2, GTK3, Xfce, MATE, Openbox
 mkdir /tmp/phlat && cd /tmp/phlat
 wget https://github.com/sixsixfive/phlat/archive/master.zip
 unzip master.zip
 mkdir -p $prefix/share/themes
 mv /tmp/phlat/phlat-master $prefix/share/themes/phlat
+
 ## HiDPI Base
 ln -s $prefix/share/themes/phlat/@extra/phlat-hidpi $prefix/share/themes/phlat-HiDPI
+
 ## Icon theme
 mkdir -p $prefix/share/icons
 ln -s $prefix/share/themes/phlat/@extra/phlat-icons $prefix/share/themes/phlat
+
 ## IceWM
 mkdir -p $prefix/icewm/themes
 ln -s $prefix/share/themes/phlat/@extra/icewm/phlat $prefix/share/icewm/themes/phlat
+
 ## OnBoard
 mkdir -p $prefix/onboard/themes
 ln -s $prefix/share/themes/phlat/@extra/onboard/phlat.colors $prefix/share/onboard/themes/phlat.colors
 ln -s $prefix/share/themes/phlat/@extra/onboard/phlat.theme $prefix/share/onboard/themes/phlat.theme
+
 ## Plank theme
 mkdir -p $prefix/usr/share/plank/themes
 ln -s $prefix/share/themes/phlat/@extra/plank/phlat $prefix/share/plank/themes/phlat
 ln -s $prefix/share/themes/phlat/@extra/plank/phlat-full $prefix/share/plank/themes/phlat-full
+
+## WinAMP theme(audacious example)
+## If your player needs PNG or BMP graphics use the included script!
+mkdir -p  $prefix/usr/share/audacious/Skins
+ln -sf $prefix/share/themes/phlat/@extra/WinAMP/phlatAMP $prefix/share/audacious/Skins/phlatAMP
+
+#### Qt5
 ## Qt5ct (if you use a different prefix than /usr you need to edit the image paths in phlat_QGtkStyle.qss)
 mkdir -p $prefix/usr/share/qt5ct/qss
 mkdir -p $prefix/usr/share/qt5ct/colors
 ln -s $prefix/share/themes/phlat/@extra/qt5ct/colors/phlat_QGtkStyle.conf $prefix/usr/share/qt5ct/colors/phlat_QGtkStyle.conf
 ln -s $prefix/share/themes/phlat/@extra/qt5ct/qss/phlat_QGtkStyle.qss $prefix/usr/share/qt5ct/qss/phlat_QGtkStyle.qss
-## WinAMP theme(audacious example)
-mkdir -p  $prefix/usr/share/audacious/Skins
-ln -sf $prefix/share/themes/phlat/@extra/WinAMP/phlatAMP $prefix/share/audacious/Skins/phlatAMP
 ```
 Chrome/Chromium theme:
 
