@@ -1,5 +1,14 @@
 Phlat is a simple, fast and daily usable dark theme mainly made for [Xfce](https://xfce.org) or [MATE](https://mate-desktop.org).
 
+
+# Contents
+
+* [Dependencies](#dependencies)
+* [Installation](#installation)
+* [Optional](#optional)
+
+## Dependencies
+
 ### Depends on: 
 
 * GTK2 (mist, murrine and pixbuf engine with SVG support!)
@@ -25,8 +34,9 @@ Phlat is a simple, fast and daily usable dark theme mainly made for [Xfce](https
 * WinAMP 2.9x theme
 * and more
 
-## Install
+## Installation
 
+### Manual
 For example to install it for all users:
 
 ```
